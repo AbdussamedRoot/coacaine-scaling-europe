@@ -1,0 +1,719 @@
+"country","city","metabolite","value_current","value_previous","year_current","year_previous","change_percent","change_percent2","SiteID","location","latitude","longitude","population","institution","website"
+"AT","Graz","amphetamine",41.8,49.64,"2025","2024",-15.79,"decrease","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","amphetamine",110.42,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","amphetamine",12.24,9.19,"2025","2024",33.19,"increase","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","amphetamine",14.03,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","amphetamine",30.3,36,"2025","2024",-15.83,"decrease","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","amphetamine",14.6,16.36,"2025","2024",-10.76,"decrease","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","amphetamine",42.53,62.69,"2025","2024",-32.16,"decrease","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","amphetamine",6.15,7.15,"2025","2024",-13.99,"decrease","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","amphetamine",32.51,14.16,"2025","2024",129.59,"increase","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","amphetamine",9.24,15.91,"2025","2024",-41.92,"decrease","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","amphetamine",8.49,6.19,"2025","2024",37.16,"increase","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","amphetamine",104.49,101.68,"2025","2024",2.76,"stable","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","amphetamine",27.33,24.3,"2025","2024",12.47,"increase","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","amphetamine",46.67,37.45,"2025","2024",24.62,"increase","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","amphetamine",7.82,11.12,"2025","2024",-29.68,"decrease","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","amphetamine",42.45,42.3,"2025","2024",0.35,"stable","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","amphetamine",22.67,26.28,"2025","2024",-13.74,"decrease","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","amphetamine",35.95,39.59,"2025","2024",-9.19,"stable","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"BE","Antwerp Z","amphetamine",233.53,376.09,"2025","2024",-37.91,"decrease","BE002","Antwerpen-Zuid","51.21891301755066","4.416696559724063",202983,"Toxicological Centre",NA
+"BE","Arlon","amphetamine",13.61,NA,"2025","",NA,"no previous data","BE003","Arlon","49.67825295433016","5.804189382518892",20990,"Toxicological Centre","N/A"
+"BE","Bruges","amphetamine",140.35,NA,"2025","",NA,"no previous data","BE005","Bruges","51.20707305666424","3.22930260996085",188590,"Toxicological Centre","N/A"
+"BE","Brussels (2)","amphetamine",79.65,NA,"2025","",NA,"no previous data","BE008","Brussel-Noord;Brussels-Zuid","50.84727314011017","4.357895044666108",1391929,"Toxicological Centre",NA
+"BE","Charleroi-Est","amphetamine",26.55,NA,"2025","",NA,"no previous data","BE011","Montignies-sur-Sambre","50.40756584511063","4.440515107487087",125724,"Toxicological Centre","N/A"
+"BE","Deurne","amphetamine",152.93,NA,"2025","",NA,"no previous data","BE012","Deurne","51.463730148080785","5.792318456631524",233100,"Toxicological Centre","N/A"
+"BE","Ghent","amphetamine",106.18,NA,"2025","",NA,"no previous data","BE014","Ghent","51.081940746202875","3.5921375396721005",242877,"Toxicological Centre","N/A"
+"BE","Harelbeke","amphetamine",157.43,NA,"2025","",NA,"no previous data","BE015","Harelbeke","50.856861610858864","3.310137297622813",120617,"Toxicological Centre","N/A"
+"BE","Hasselt","amphetamine",449.71,NA,"2025","",NA,"no previous data","BE016","Hasselt","50.93144214288282","5.329145917707858",76715,"Toxicological Centre","N/A"
+"BE","Leuven","amphetamine",85.73,NA,"2025","",NA,"no previous data","BE018","Leuven","50.878237710708845","4.7005496045026005",133794,"Toxicological Centre","N/A"
+"BE","Liège-Oupeye","amphetamine",69.43,NA,"2025","",NA,"no previous data","BE019","Liège-Oupeye","50.639586649870274","5.575261618499351",252775,"Toxicological Centre","N/A"
+"BE","Marche-En-Famenne","amphetamine",128.95,NA,"2025","",NA,"no previous data","BE020","Marche-En-Famenne","50.22863106780432","5.3268101889964",9194,"Toxicological Centre","N/A"
+"BE","Mechelen-N","amphetamine",68.49,NA,"2025","",NA,"no previous data","BE021","Mechelen-N","51.02848586895685","4.479124231200348",108682,"Toxicological Centre","N/A"
+"BE","Mons","amphetamine",20.66,NA,"2025","",NA,"no previous data","BE023","Wasmuel","50.453147047609995","3.95645297175328",158248,"Toxicological Centre","N/A"
+"BE","Namur","amphetamine",28.85,NA,"2025","",NA,"no previous data","BE024","Namur Brumagne","50.46483017972681","4.866032095242799",85212,"Toxicological Centre","N/A"
+"BE","Wavre","amphetamine",50.25,NA,"2025","",NA,"no previous data","BE028","Basse-Wavre","50.7158383792793","4.61784632925305",81032,"Toxicological Centre","N/A"
+"CY","Agia Napa","amphetamine",31.16,8.01,"2025","2024",289.01,"increase","CY001","Sewage treatment plant of Agia Napa-Paralimni","34.99075444704176","33.9999814169353",33296,"Nireas","N/A"
+"CY","Larnaca","amphetamine",22.42,6.5,"2025","2024",244.92,"increase","CY002","Sewage Bioard of Larnaca","34.915164353041064","33.6361988334665",41559,"Nireas","N/A"
+"CY","Limassol","amphetamine",32.08,6.66,"2025","2024",381.68,"increase","CY003","Sewerage Board of Limassol-Amathus (SBLA)","34.69","33.02",158365,"Nireas","N/A"
+"CY","Nicosia (2)","amphetamine",6.6,5.77,"2025","2024",14.38,"increase","CY005","Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia;Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia","35.17","33.4",132825,"Nireas",NA
+"CY","Paphos","amphetamine",11.37,9.42,"2025","2024",20.7,"increase","CY007","Sewage Borad of Pafos","34.775853627551825","32.4215949998929",131160,"Nireas","N/A"
+"CZ","Brno","amphetamine",60.51,26.51,"2025","2024",128.25,"increase","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","amphetamine",50.29,25.38,"2025","2024",98.15,"increase","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","amphetamine",53.26,32.85,"2025","2024",62.13,"increase","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","amphetamine",60.76,57.48,"2025","2024",5.71,"stable","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","amphetamine",72.9,53.78,"2025","2024",35.55,"increase","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","amphetamine",69.78,80.93,"2025","2024",-13.78,"decrease","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","amphetamine",208.78,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","amphetamine",32.59,27.43,"2025","2024",18.81,"increase","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","amphetamine",50.14,50.58,"2025","2024",-0.87,"stable","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","amphetamine",97.32,64.62,"2025","2024",50.6,"increase","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","amphetamine",82.9,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","amphetamine",75.24,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","amphetamine",97.01,97.34,"2025","2024",-0.34,"stable","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","amphetamine",182.86,131.37,"2025","2024",39.19,"increase","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","amphetamine",171.66,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","amphetamine",29.84,37.87,"2025","2024",-21.2,"decrease","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","amphetamine",44.23,53.19,"2025","2024",-16.85,"decrease","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","amphetamine",190.18,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","amphetamine",93.03,111.13,"2025","2024",-16.29,"decrease","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","amphetamine",112.89,112.76,"2025","2024",0.12,"stable","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","amphetamine",81.36,74.1,"2025","2024",9.8,"stable","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","amphetamine",102.49,95.78,"2025","2024",7.01,"stable","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","amphetamine",293.72,199.86,"2025","2024",46.96,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","amphetamine",167.39,179.24,"2025","2024",-6.61,"stable","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","amphetamine",128.85,121.81,"2025","2024",5.78,"stable","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","amphetamine",50.8,41.91,"2025","2024",21.21,"increase","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Granada","amphetamine",51.11,21.05,"2025","2024",142.8,"increase","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","amphetamine",49.61,42.25,"2025","2024",17.42,"increase","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","amphetamine",42,10.93,"2025","2024",284.26,"increase","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"FI","Espoo","amphetamine",90.68,119.13,"2025","2024",-23.88,"decrease","FI001","Blominmäki","60.16","24.71",430000,"THL/Forensic Toxicology","N/A"
+"FI","Helsinki","amphetamine",211.56,186.03,"2025","2024",13.72,"increase","FI002","Viikinmäki","60.23","24.99",930000,"THL/Forensic Toxicology","N/A"
+"FI","Tampere","amphetamine",179.87,159.96,"2025","2024",12.45,"increase","FI026","Viinikanlahti","61.49","23.77",200000,"THL/Forensic Toxicology","N/A"
+"FI","Turku","amphetamine",147.97,167.53,"2025","2024",-11.68,"decrease","FI027","Kakolanmäki","60.44","22.24",300000,"THL/Forensic Toxicology","N/A"
+"FR","Paris SC","amphetamine",5.78,5.85,"2025","2024",-1.2,"stable","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","amphetamine",9.33,12.98,"2025","2024",-28.12,"decrease","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Zagreb","amphetamine",104.53,82.75,"2025","2024",26.32,"increase","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"IE","Dublin","amphetamine",14.99,23.61,"2025","2024",-36.51,"decrease","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","amphetamine",2.19,2.75,"2025","2024",-20.36,"decrease","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","amphetamine",5.06,4.05,"2025","2024",24.94,"increase","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LT","Kaunas","amphetamine",44.34,NA,"2025","",NA,"no previous data","LT001","Kaunas","54.89687","23.89243",297143,"Toxicological Centre","N/A"
+"LT","Klaipeda","amphetamine",37.52,21.86,"2025","2024",71.64,"increase","LT002","Klaipeda","55.78282","21.49279",305333,"Toxicological Centre","N/A"
+"LT","Vilnius","amphetamine",76.25,57.16,"2025","2024",33.4,"increase","LT003","Vilniaus vandenys","54.687156","25.279651",574104,"Toxicological Centre","N/A"
+"LV","Riga","amphetamine",185.04,139.03,"2025","2024",33.09,"increase","LV001","Riga","56.94965","24.105186",607381,"Toxicological Centre","N/A"
+"NL","Amsterdam","amphetamine",155.59,172.25,"2025","2024",-9.67,"stable","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","amphetamine",425.43,311.26,"2025","2024",36.68,"increase","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","amphetamine",236.35,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","amphetamine",179.17,173.2,"2025","2024",3.45,"stable","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","amphetamine",230.44,304.26,"2025","2024",-24.26,"decrease","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","amphetamine",294.31,430.06,"2025","2024",-31.57,"decrease","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","amphetamine",279.95,296.7,"2025","2024",-5.65,"stable","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","amphetamine",375.32,394.43,"2025","2024",-4.84,"stable","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","amphetamine",52.09,79.72,"2025","2024",-34.66,"decrease","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","amphetamine",10.65,5.28,"2025","2024",101.7,"increase","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","amphetamine",13.22,18.36,"2025","2024",-28,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","amphetamine",0,10.97,"2025","2024",-100,"decrease","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Gävle","amphetamine",448.4,518.28,"2025","2024",-13.48,"decrease","SE002","Duvbacken ARV","60.674622","17.14183",89463,"RISE","N/A"
+"SE","Stockholm (3)","amphetamine",226.07,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SE","Trollhättan","amphetamine",232.06,279.39,"2025","2024",-16.94,"decrease","SE013","Arvidstorps ARV","58.28280282231849","12.28336017746507",59004,"RISE","N/A"
+"SE","Växjö","amphetamine",115,120.1,"2025","2024",-4.25,"stable","SE016","Sundets ARV","56.858257","14.761215",86785,"RISE","N/A"
+"SI","Domzale-Kamnik","amphetamine",0,2.83,"2025","2024",-100,"decrease","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","amphetamine",92.7,20.6,"2025","2024",350,"increase","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","amphetamine",23.67,25.51,"2025","2024",-7.21,"stable","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","amphetamine",60.02,32.51,"2025","2024",84.62,"increase","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","amphetamine",0,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","amphetamine",16.96,9.82,"2025","2024",72.71,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","amphetamine",61.37,58.28,"2025","2024",5.3,"stable","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","amphetamine",21.67,12.47,"2025","2024",73.78,"increase","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","amphetamine",33.76,7.62,"2025","2024",343.04,"increase","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Istanbul (II-VII)","amphetamine",2.59,5.9,"2025","2024",-56.1,"decrease","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"AT","Graz","cannabis",51.73,66.17,"2025","2024",-21.82,"decrease","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","cannabis",45.55,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","cannabis",53.12,49.73,"2025","2024",6.82,"stable","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","cannabis",21.77,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","cannabis",48.33,55.86,"2025","2024",-13.48,"decrease","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","cannabis",53.77,79.05,"2025","2024",-31.98,"decrease","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","cannabis",57.2,53.46,"2025","2024",7,"stable","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","cannabis",34.23,42.84,"2025","2024",-20.1,"decrease","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","cannabis",45.54,39,"2025","2024",16.77,"increase","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","cannabis",67.01,74.09,"2025","2024",-9.56,"stable","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","cannabis",28.55,25.8,"2025","2024",10.66,"increase","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","cannabis",44.67,58.15,"2025","2024",-23.18,"decrease","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","cannabis",45.48,50.76,"2025","2024",-10.4,"decrease","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","cannabis",76.89,61.54,"2025","2024",24.94,"increase","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","cannabis",34.16,31.97,"2025","2024",6.85,"stable","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","cannabis",79.53,87.34,"2025","2024",-8.94,"stable","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","cannabis",63,55.94,"2025","2024",12.62,"increase","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","cannabis",40.9,31.32,"2025","2024",30.59,"increase","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"CZ","Brno","cannabis",73.1,72.31,"2025","2024",1.09,"stable","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","cannabis",134.53,118.02,"2025","2024",13.99,"increase","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","cannabis",71.77,71.97,"2025","2024",-0.28,"stable","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","cannabis",90.72,105.41,"2025","2024",-13.94,"decrease","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","cannabis",92.22,80.35,"2025","2024",14.77,"increase","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","cannabis",35.23,47.72,"2025","2024",-26.17,"decrease","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","cannabis",172.67,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","cannabis",74.93,NA,"2025","",NA,"no previous data","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","cannabis",114.63,NA,"2025","",NA,"no previous data","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","cannabis",178.51,NA,"2025","",NA,"no previous data","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","cannabis",150.91,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","cannabis",167.28,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","cannabis",130.09,NA,"2025","",NA,"no previous data","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","cannabis",131.7,NA,"2025","",NA,"no previous data","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","cannabis",130.6,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","cannabis",114.8,NA,"2025","",NA,"no previous data","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","cannabis",158.98,NA,"2025","",NA,"no previous data","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","cannabis",96.57,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","cannabis",83.02,NA,"2025","",NA,"no previous data","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","cannabis",97.95,90.62,"2025","2024",8.09,"stable","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","cannabis",59.91,65.53,"2025","2024",-8.58,"stable","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","cannabis",97.37,123.35,"2025","2024",-21.06,"decrease","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","cannabis",137.05,111.19,"2025","2024",23.26,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","cannabis",69.66,93.55,"2025","2024",-25.54,"decrease","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","cannabis",86.69,78.41,"2025","2024",10.56,"increase","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","cannabis",126.61,220.68,"2025","2024",-42.63,"decrease","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Castellon","cannabis",47.15,65.04,"2025","2024",-27.51,"decrease","ES002","EDAR Castellón","40.23","-0.12",186324,"IUPA","N/A"
+"ES","Lleida","cannabis",42.88,121.31,"2025","2024",-64.65,"decrease","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","cannabis",74.55,54.32,"2025","2024",37.24,"increase","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"FR","Paris SC","cannabis",96.96,53.88,"2025","2024",79.96,"increase","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"HR","Split","cannabis",112.33,4.93,"2025","2024",2178.5,"increase","HR001","Wastewater sampling site at Katalinica Brig, Split","43.51526542","16.44159294",109710,"Department for Water Safety and Supply","N/A"
+"HR","Zagreb","cannabis",56.45,88.8,"2025","2024",-36.43,"decrease","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"HU","Budapest","cannabis",93.47,56.78,"2025","2024",64.62,"increase","HU001",NA,"47.50155794","19.04200692",912698,"NCPHP/ NSZKK",NA
+"HU","Debrecen","cannabis",25.67,NA,"2025","",NA,"no previous data","HU002",NA,"47.53033","21.61623",207292,"NCPHP/ NSZKK",NA
+"IE","Dublin","cannabis",106.39,98.1,"2025","2024",8.45,"stable","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","cannabis",53.34,52.72,"2025","2024",1.18,"stable","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","cannabis",42,52.28,"2025","2024",-19.66,"decrease","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"NL","Amsterdam","cannabis",194.09,319.46,"2025","2024",-39.24,"decrease","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","cannabis",98.19,124.64,"2025","2024",-21.22,"decrease","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","cannabis",101.98,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","cannabis",124.56,147.99,"2025","2024",-15.83,"decrease","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","cannabis",93.28,122.44,"2025","2024",-23.82,"decrease","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","cannabis",132.61,132.72,"2025","2024",-0.08,"stable","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","cannabis",143.17,163.11,"2025","2024",-12.22,"decrease","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","cannabis",92.58,110.78,"2025","2024",-16.43,"decrease","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","cannabis",41.85,41.68,"2025","2024",0.41,"stable","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","cannabis",80.05,119.1,"2025","2024",-32.79,"decrease","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","cannabis",124.96,150.83,"2025","2024",-17.15,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","cannabis",44.56,53.74,"2025","2024",-17.08,"decrease","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Gävle","cannabis",37.49,44.8,"2025","2024",-16.32,"decrease","SE002","Duvbacken ARV","60.674622","17.14183",89463,"RISE","N/A"
+"SE","Stockholm (3)","cannabis",50.34,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SE","Trollhättan","cannabis",33.3,49.74,"2025","2024",-33.05,"decrease","SE013","Arvidstorps ARV","58.28280282231849","12.28336017746507",59004,"RISE","N/A"
+"SE","Växjö","cannabis",21.22,46.85,"2025","2024",-54.71,"decrease","SE016","Sundets ARV","56.858257","14.761215",86785,"RISE","N/A"
+"SI","Domzale-Kamnik","cannabis",91.87,46.61,"2025","2024",97.1,"increase","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","cannabis",89.07,45.65,"2025","2024",95.12,"increase","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","cannabis",152.79,90.21,"2025","2024",69.37,"increase","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","cannabis",154.17,64.97,"2025","2024",137.29,"increase","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","cannabis",39.91,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","cannabis",143.53,36.84,"2025","2024",289.6,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","cannabis",105.41,68.18,"2025","2024",54.61,"increase","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","cannabis",87.12,58.46,"2025","2024",49.02,"increase","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","cannabis",72.35,52.34,"2025","2024",38.23,"increase","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Ankara","cannabis",14.98,16.86,"2025","2024",-11.15,"decrease","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"TR","Istanbul (II-VII)","cannabis",16.82,16.52,"2025","2024",1.82,"stable","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"AT","Graz","cocaine",381.61,332.85,"2025","2024",14.65,"increase","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","cocaine",347.52,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","cocaine",548.8,369.53,"2025","2024",48.51,"increase","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","cocaine",97.05,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","cocaine",353.96,342,"2025","2024",3.5,"stable","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","cocaine",417.96,522.76,"2025","2024",-20.05,"decrease","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","cocaine",306.49,166.56,"2025","2024",84.01,"increase","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","cocaine",386.27,311.32,"2025","2024",24.07,"increase","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","cocaine",182.45,163.79,"2025","2024",11.39,"increase","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","cocaine",998.25,641.52,"2025","2024",55.61,"increase","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","cocaine",255,172,"2025","2024",48.26,"increase","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","cocaine",101.95,95.96,"2025","2024",6.24,"stable","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","cocaine",352.04,279.9,"2025","2024",25.77,"increase","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","cocaine",135.83,149.75,"2025","2024",-9.3,"stable","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","cocaine",319.21,230.38,"2025","2024",38.56,"increase","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","cocaine",595.2,443.95,"2025","2024",34.07,"increase","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","cocaine",304.66,277.24,"2025","2024",9.89,"stable","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","cocaine",220.6,165.58,"2025","2024",33.23,"increase","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"BE","Antwerp Z","cocaine",1382.14,1996.98,"2025","2024",-30.79,"decrease","BE002","Antwerpen-Zuid","51.21891301755066","4.416696559724063",202983,"Toxicological Centre",NA
+"BE","Arlon","cocaine",749.91,NA,"2025","",NA,"no previous data","BE003","Arlon","49.67825295433016","5.804189382518892",20990,"Toxicological Centre","N/A"
+"BE","Bruges","cocaine",416.76,NA,"2025","",NA,"no previous data","BE005","Bruges","51.20707305666424","3.22930260996085",188590,"Toxicological Centre","N/A"
+"BE","Brussels (2)","cocaine",1020.47,NA,"2025","",NA,"no previous data","BE008","Brussel-Noord;Brussels-Zuid","50.84727314011017","4.357895044666108",1391929,"Toxicological Centre",NA
+"BE","Charleroi-Est","cocaine",1002.6,NA,"2025","",NA,"no previous data","BE011","Montignies-sur-Sambre","50.40756584511063","4.440515107487087",125724,"Toxicological Centre","N/A"
+"BE","Deurne","cocaine",833.91,NA,"2025","",NA,"no previous data","BE012","Deurne","51.463730148080785","5.792318456631524",233100,"Toxicological Centre","N/A"
+"BE","Ghent","cocaine",407.71,NA,"2025","",NA,"no previous data","BE014","Ghent","51.081940746202875","3.5921375396721005",242877,"Toxicological Centre","N/A"
+"BE","Harelbeke","cocaine",504.71,NA,"2025","",NA,"no previous data","BE015","Harelbeke","50.856861610858864","3.310137297622813",120617,"Toxicological Centre","N/A"
+"BE","Hasselt","cocaine",756.49,NA,"2025","",NA,"no previous data","BE016","Hasselt","50.93144214288282","5.329145917707858",76715,"Toxicological Centre","N/A"
+"BE","Leuven","cocaine",322.22,NA,"2025","",NA,"no previous data","BE018","Leuven","50.878237710708845","4.7005496045026005",133794,"Toxicological Centre","N/A"
+"BE","Liège-Oupeye","cocaine",1038.88,NA,"2025","",NA,"no previous data","BE019","Liège-Oupeye","50.639586649870274","5.575261618499351",252775,"Toxicological Centre","N/A"
+"BE","Marche-En-Famenne","cocaine",849.71,NA,"2025","",NA,"no previous data","BE020","Marche-En-Famenne","50.22863106780432","5.3268101889964",9194,"Toxicological Centre","N/A"
+"BE","Mechelen-N","cocaine",402.24,NA,"2025","",NA,"no previous data","BE021","Mechelen-N","51.02848586895685","4.479124231200348",108682,"Toxicological Centre","N/A"
+"BE","Mons","cocaine",527.29,NA,"2025","",NA,"no previous data","BE023","Wasmuel","50.453147047609995","3.95645297175328",158248,"Toxicological Centre","N/A"
+"BE","Namur","cocaine",926.98,NA,"2025","",NA,"no previous data","BE024","Namur Brumagne","50.46483017972681","4.866032095242799",85212,"Toxicological Centre","N/A"
+"BE","Wavre","cocaine",398.89,NA,"2025","",NA,"no previous data","BE028","Basse-Wavre","50.7158383792793","4.61784632925305",81032,"Toxicological Centre","N/A"
+"CY","Agia Napa","cocaine",73.73,46.45,"2025","2024",58.73,"increase","CY001","Sewage treatment plant of Agia Napa-Paralimni","34.99075444704176","33.9999814169353",33296,"Nireas","N/A"
+"CY","Larnaca","cocaine",134.18,38.79,"2025","2024",245.91,"increase","CY002","Sewage Bioard of Larnaca","34.915164353041064","33.6361988334665",41559,"Nireas","N/A"
+"CY","Limassol","cocaine",37.87,97.33,"2025","2024",-61.09,"decrease","CY003","Sewerage Board of Limassol-Amathus (SBLA)","34.69","33.02",158365,"Nireas","N/A"
+"CY","Nicosia (2)","cocaine",57.68,43.54,"2025","2024",32.48,"increase","CY005","Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia;Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia","35.17","33.4",132825,"Nireas",NA
+"CY","Paphos","cocaine",43.81,41.18,"2025","2024",6.39,"stable","CY007","Sewage Borad of Pafos","34.775853627551825","32.4215949998929",131160,"Nireas","N/A"
+"CZ","Brno","cocaine",178.42,193.39,"2025","2024",-7.74,"stable","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","cocaine",226.48,222.13,"2025","2024",1.96,"stable","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","cocaine",144.54,103.2,"2025","2024",40.06,"increase","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","cocaine",230.64,200.1,"2025","2024",15.26,"increase","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","cocaine",552.28,501.72,"2025","2024",10.08,"increase","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","cocaine",80.84,78.95,"2025","2024",2.39,"stable","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","cocaine",643.88,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","cocaine",71.94,57.48,"2025","2024",25.16,"increase","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","cocaine",106.14,101.92,"2025","2024",4.14,"stable","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","cocaine",140.53,118.62,"2025","2024",18.47,"increase","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","cocaine",723.84,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","cocaine",707.37,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","cocaine",536.31,421.51,"2025","2024",27.24,"increase","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","cocaine",300.54,226.4,"2025","2024",32.75,"increase","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","cocaine",346.05,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","cocaine",382.7,407.64,"2025","2024",-6.12,"stable","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","cocaine",122.7,91.62,"2025","2024",33.92,"increase","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","cocaine",369.56,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","cocaine",611.65,436.81,"2025","2024",40.03,"increase","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","cocaine",722.07,488.12,"2025","2024",47.93,"increase","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","cocaine",330.35,287.21,"2025","2024",15.02,"increase","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","cocaine",696.48,548.44,"2025","2024",26.99,"increase","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","cocaine",648.27,382.63,"2025","2024",69.42,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","cocaine",389.29,297.54,"2025","2024",30.84,"increase","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","cocaine",458.19,406.63,"2025","2024",12.68,"increase","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","cocaine",996.93,349.44,"2025","2024",185.29,"increase","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Castellon","cocaine",661.95,752.07,"2025","2024",-11.98,"decrease","ES002","EDAR Castellón","40.23","-0.12",186324,"IUPA","N/A"
+"ES","Granada","cocaine",1238.19,NA,"2025","",NA,"no previous data","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","cocaine",1405.43,623.86,"2025","2024",125.28,"increase","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","cocaine",1007.84,609.79,"2025","2024",65.28,"increase","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"ES","Valencia (2)","cocaine",407.52,NA,"2025","",NA,"no previous data","ES009","Pinedo I;Pinedo II","39.47353040047968","-0.3834264875414182",2343766,"SAMA-UV",NA
+"FI","Espoo","cocaine",129.9,158.62,"2025","2024",-18.11,"decrease","FI001","Blominmäki","60.16","24.71",430000,"THL/Forensic Toxicology","N/A"
+"FI","Helsinki","cocaine",219.14,224.53,"2025","2024",-2.4,"stable","FI002","Viikinmäki","60.23","24.99",930000,"THL/Forensic Toxicology","N/A"
+"FI","Tampere","cocaine",98.15,73.78,"2025","2024",33.03,"increase","FI026","Viinikanlahti","61.49","23.77",200000,"THL/Forensic Toxicology","N/A"
+"FI","Turku","cocaine",79.83,91.21,"2025","2024",-12.48,"decrease","FI027","Kakolanmäki","60.44","22.24",300000,"THL/Forensic Toxicology","N/A"
+"FR","Paris SC","cocaine",396.23,NA,"2025","",NA,"no previous data","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","cocaine",297.69,181.21,"2025","2024",64.28,"increase","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Split","cocaine",308.26,232.99,"2025","2024",32.31,"increase","HR001","Wastewater sampling site at Katalinica Brig, Split","43.51526542","16.44159294",109710,"Department for Water Safety and Supply","N/A"
+"HR","Zagreb","cocaine",568.54,677.38,"2025","2024",-16.07,"decrease","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"HU","Budapest","cocaine",235.07,311.72,"2025","2024",-24.59,"decrease","HU001",NA,"47.50155794","19.04200692",912698,"NCPHP/ NSZKK",NA
+"HU","Debrecen","cocaine",30.43,NA,"2025","",NA,"no previous data","HU002",NA,"47.53033","21.61623",207292,"NCPHP/ NSZKK",NA
+"IE","Dublin","cocaine",719.33,875.54,"2025","2024",-17.84,"decrease","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","cocaine",536.91,415.08,"2025","2024",29.35,"increase","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","cocaine",424.15,402.39,"2025","2024",5.41,"stable","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LT","Kaunas","cocaine",325.57,254.31,"2025","2024",28.02,"increase","LT001","Kaunas","54.89687","23.89243",297143,"Toxicological Centre","N/A"
+"LT","Klaipeda","cocaine",177.3,164.15,"2025","2024",8.01,"stable","LT002","Klaipeda","55.78282","21.49279",305333,"Toxicological Centre","N/A"
+"LT","Vilnius","cocaine",245.93,169.07,"2025","2024",45.46,"increase","LT003","Vilniaus vandenys","54.687156","25.279651",574104,"Toxicological Centre","N/A"
+"LV","Riga","cocaine",349.83,202.67,"2025","2024",72.61,"increase","LV001","Riga","56.94965","24.105186",607381,"Toxicological Centre","N/A"
+"NL","Amsterdam","cocaine",1171.57,1206.28,"2025","2024",-2.88,"stable","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","cocaine",878.6,809.89,"2025","2024",8.48,"stable","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","cocaine",749.04,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","cocaine",907.4,972.92,"2025","2024",-6.73,"stable","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","cocaine",753.99,688.55,"2025","2024",9.5,"stable","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","cocaine",348.38,515.61,"2025","2024",-32.43,"decrease","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","cocaine",618.95,672.16,"2025","2024",-7.92,"stable","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","cocaine",192.18,264.37,"2025","2024",-27.31,"decrease","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","cocaine",82.3,92.56,"2025","2024",-11.08,"decrease","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","cocaine",446.34,358.61,"2025","2024",24.46,"increase","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","cocaine",522.63,625.08,"2025","2024",-16.39,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","cocaine",254.43,415.58,"2025","2024",-38.78,"decrease","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Gävle","cocaine",113.3,77.08,"2025","2024",46.99,"increase","SE002","Duvbacken ARV","60.674622","17.14183",89463,"RISE","N/A"
+"SE","Stockholm (3)","cocaine",332.49,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SE","Trollhättan","cocaine",87.81,92.76,"2025","2024",-5.34,"stable","SE013","Arvidstorps ARV","58.28280282231849","12.28336017746507",59004,"RISE","N/A"
+"SE","Växjö","cocaine",83.54,82.45,"2025","2024",1.32,"stable","SE016","Sundets ARV","56.858257","14.761215",86785,"RISE","N/A"
+"SI","Domzale-Kamnik","cocaine",633.02,360.6,"2025","2024",75.55,"increase","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","cocaine",494.18,441.84,"2025","2024",11.85,"increase","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","cocaine",658.39,692.72,"2025","2024",-4.96,"stable","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","cocaine",593.14,447.91,"2025","2024",32.42,"increase","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","cocaine",307.9,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","cocaine",451.22,318.89,"2025","2024",41.5,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","cocaine",587.55,258.7,"2025","2024",127.12,"increase","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","cocaine",228.37,316.79,"2025","2024",-27.91,"decrease","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","cocaine",102.39,60.27,"2025","2024",69.89,"increase","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Ankara","cocaine",11.97,14.38,"2025","2024",-16.76,"decrease","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"TR","Istanbul (II-VII)","cocaine",50.84,42.05,"2025","2024",20.9,"increase","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"CZ","Karlovy Vary","cot",908.02,NA,"2025","",NA,"no previous data","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","cot",1107.42,NA,"2025","",NA,"no previous data","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","cot",1181.22,NA,"2025","",NA,"no previous data","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","cot",1084.39,NA,"2025","",NA,"no previous data","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","cot",1454.97,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","cot",779.92,NA,"2025","",NA,"no previous data","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","cot",948.26,NA,"2025","",NA,"no previous data","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","cot",818.38,NA,"2025","",NA,"no previous data","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","cot",1175.39,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","cot",1138.74,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","cot",996.15,NA,"2025","",NA,"no previous data","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","cot",1168.78,NA,"2025","",NA,"no previous data","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","cot",941.46,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","cot",750.65,NA,"2025","",NA,"no previous data","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","cot",940.16,NA,"2025","",NA,"no previous data","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","cot",1165.85,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","cot",949.65,NA,"2025","",NA,"no previous data","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","cot",961.07,NA,"2025","",NA,"no previous data","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","cot",702.41,NA,"2025","",NA,"no previous data","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","cot",918.96,NA,"2025","",NA,"no previous data","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","cot",1177.92,NA,"2025","",NA,"no previous data","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","cot",916.78,NA,"2025","",NA,"no previous data","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","cot",816.44,NA,"2025","",NA,"no previous data","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","cot",600.63,NA,"2025","",NA,"no previous data","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Granada","cot",827.49,NA,"2025","",NA,"no previous data","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","cot",591.06,NA,"2025","",NA,"no previous data","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","cot",933.74,NA,"2025","",NA,"no previous data","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"FR","Paris SC","cot",939.8,NA,"2025","",NA,"no previous data","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","cot",997.18,NA,"2025","",NA,"no previous data","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Zagreb","cot",946.78,NA,"2025","",NA,"no previous data","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"IE","Dublin","cot",673.38,NA,"2025","",NA,"no previous data","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Milan","cot",583.84,NA,"2025","",NA,"no previous data","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LU","Luxembourg","cot",50.82,NA,"2025","",NA,"no previous data","LU002","Beggen","49.61164191","6.12649945",136249,"Laboratoire national de santé","N/A"
+"NO","Bergen (2)","cot",1032,NA,"2025","",NA,"no previous data","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","cot",1076.61,NA,"2025","",NA,"no previous data","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","cot",1000.24,NA,"2025","",NA,"no previous data","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","cot",1075.14,NA,"2025","",NA,"no previous data","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","cot",1120.16,NA,"2025","",NA,"no previous data","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","cot",1297.4,NA,"2025","",NA,"no previous data","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"SE","Gävle","cot",1356.74,NA,"2025","",NA,"no previous data","SE002","Duvbacken ARV","60.674622","17.14183",89463,"RISE","N/A"
+"SE","Stockholm (3)","cot",1489.66,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SE","Trollhättan","cot",1321.6,NA,"2025","",NA,"no previous data","SE013","Arvidstorps ARV","58.28280282231849","12.28336017746507",59004,"RISE","N/A"
+"SE","Växjö","cot",985.8,NA,"2025","",NA,"no previous data","SE016","Sundets ARV","56.858257","14.761215",86785,"RISE","N/A"
+"SI","Domzale-Kamnik","cot",1167,NA,"2025","",NA,"no previous data","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","cot",543.16,NA,"2025","",NA,"no previous data","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","cot",0,NA,"2025","",NA,"no previous data","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","cot",1628.33,NA,"2025","",NA,"no previous data","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","cot",0,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","cot",855.05,NA,"2025","",NA,"no previous data","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","cot",0,NA,"2025","",NA,"no previous data","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"TR","Istanbul (II-VII)","cot",602.25,NA,"2025","",NA,"no previous data","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"CZ","Karlovy Vary","ets",7067.51,NA,"2025","",NA,"no previous data","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","ets",6826.15,NA,"2025","",NA,"no previous data","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","ets",7866.27,NA,"2025","",NA,"no previous data","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","ets",3944.86,NA,"2025","",NA,"no previous data","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DK","Aalborg","ets",4149.21,NA,"2025","",NA,"no previous data","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","ets",3715.92,NA,"2025","",NA,"no previous data","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","ets",5094.63,NA,"2025","",NA,"no previous data","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","ets",4836.69,NA,"2025","",NA,"no previous data","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","ets",2638.36,NA,"2025","",NA,"no previous data","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","ets",3693.49,NA,"2025","",NA,"no previous data","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","ets",3134.23,NA,"2025","",NA,"no previous data","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Lleida","ets",3476.16,NA,"2025","",NA,"no previous data","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","ets",4988.05,NA,"2025","",NA,"no previous data","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"GR","Athens","ets",715.72,NA,"2025","",NA,"no previous data","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Zagreb","ets",3078.31,NA,"2025","",NA,"no previous data","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"IE","Dublin","ets",4034.24,NA,"2025","",NA,"no previous data","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Milan","ets",3321.27,NA,"2025","",NA,"no previous data","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LU","Luxembourg","ets",208.08,NA,"2025","",NA,"no previous data","LU002","Beggen","49.61164191","6.12649945",136249,"Laboratoire national de santé","N/A"
+"NO","Bergen (2)","ets",3721.85,NA,"2025","",NA,"no previous data","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","ets",4199.1,NA,"2025","",NA,"no previous data","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","ets",3487.94,NA,"2025","",NA,"no previous data","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","ets",7433.03,NA,"2025","",NA,"no previous data","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Porto","ets",1247.31,NA,"2025","",NA,"no previous data","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Stockholm (3)","ets",2733.42,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SI","Domzale-Kamnik","ets",2915.32,NA,"2025","",NA,"no previous data","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","ets",2166.68,NA,"2025","",NA,"no previous data","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","ets",2241.82,NA,"2025","",NA,"no previous data","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","ets",2585.24,NA,"2025","",NA,"no previous data","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","ets",678.77,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","ets",2342.7,NA,"2025","",NA,"no previous data","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","ets",3202.01,NA,"2025","",NA,"no previous data","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"TR","Ankara","ets",488.12,NA,"2025","",NA,"no previous data","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"TR","Istanbul (II-VII)","ets",656.88,NA,"2025","",NA,"no previous data","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"AT","Graz","ketamine",13.07,NA,"2025","",NA,"no previous data","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","ketamine",55.86,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","ketamine",11.39,NA,"2025","",NA,"no previous data","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","ketamine",0.69,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","ketamine",1.6,NA,"2025","",NA,"no previous data","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","ketamine",16.65,NA,"2025","",NA,"no previous data","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","ketamine",2.2,NA,"2025","",NA,"no previous data","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","ketamine",4.67,NA,"2025","",NA,"no previous data","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","ketamine",1.8,NA,"2025","",NA,"no previous data","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","ketamine",5.24,NA,"2025","",NA,"no previous data","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","ketamine",3.1,NA,"2025","",NA,"no previous data","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","ketamine",34.68,NA,"2025","",NA,"no previous data","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","ketamine",2.96,NA,"2025","",NA,"no previous data","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","ketamine",9,NA,"2025","",NA,"no previous data","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","ketamine",25.22,NA,"2025","",NA,"no previous data","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","ketamine",35.53,NA,"2025","",NA,"no previous data","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","ketamine",11.67,NA,"2025","",NA,"no previous data","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","ketamine",6.17,NA,"2025","",NA,"no previous data","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"BE","Antwerp Z","ketamine",83.74,71.46,"2025","2024",17.18,"increase","BE002","Antwerpen-Zuid","51.21891301755066","4.416696559724063",202983,"Toxicological Centre",NA
+"BE","Arlon","ketamine",41.96,NA,"2025","",NA,"no previous data","BE003","Arlon","49.67825295433016","5.804189382518892",20990,"Toxicological Centre","N/A"
+"BE","Bruges","ketamine",72.5,NA,"2025","",NA,"no previous data","BE005","Bruges","51.20707305666424","3.22930260996085",188590,"Toxicological Centre","N/A"
+"BE","Brussels (2)","ketamine",50.09,NA,"2025","",NA,"no previous data","BE008","Brussel-Noord;Brussels-Zuid","50.84727314011017","4.357895044666108",1391929,"Toxicological Centre",NA
+"BE","Charleroi-Est","ketamine",36.04,NA,"2025","",NA,"no previous data","BE011","Montignies-sur-Sambre","50.40756584511063","4.440515107487087",125724,"Toxicological Centre","N/A"
+"BE","Deurne","ketamine",44.24,NA,"2025","",NA,"no previous data","BE012","Deurne","51.463730148080785","5.792318456631524",233100,"Toxicological Centre","N/A"
+"BE","Ghent","ketamine",62.95,NA,"2025","",NA,"no previous data","BE014","Ghent","51.081940746202875","3.5921375396721005",242877,"Toxicological Centre","N/A"
+"BE","Harelbeke","ketamine",62.22,NA,"2025","",NA,"no previous data","BE015","Harelbeke","50.856861610858864","3.310137297622813",120617,"Toxicological Centre","N/A"
+"BE","Hasselt","ketamine",108.81,NA,"2025","",NA,"no previous data","BE016","Hasselt","50.93144214288282","5.329145917707858",76715,"Toxicological Centre","N/A"
+"BE","Leuven","ketamine",57.07,NA,"2025","",NA,"no previous data","BE018","Leuven","50.878237710708845","4.7005496045026005",133794,"Toxicological Centre","N/A"
+"BE","Liège-Oupeye","ketamine",70.93,NA,"2025","",NA,"no previous data","BE019","Liège-Oupeye","50.639586649870274","5.575261618499351",252775,"Toxicological Centre","N/A"
+"BE","Marche-En-Famenne","ketamine",0,NA,"2025","",NA,"no previous data","BE020","Marche-En-Famenne","50.22863106780432","5.3268101889964",9194,"Toxicological Centre","N/A"
+"BE","Mechelen-N","ketamine",48.65,NA,"2025","",NA,"no previous data","BE021","Mechelen-N","51.02848586895685","4.479124231200348",108682,"Toxicological Centre","N/A"
+"BE","Mons","ketamine",65.11,NA,"2025","",NA,"no previous data","BE023","Wasmuel","50.453147047609995","3.95645297175328",158248,"Toxicological Centre","N/A"
+"BE","Namur","ketamine",106.22,NA,"2025","",NA,"no previous data","BE024","Namur Brumagne","50.46483017972681","4.866032095242799",85212,"Toxicological Centre","N/A"
+"BE","Wavre","ketamine",25.37,NA,"2025","",NA,"no previous data","BE028","Basse-Wavre","50.7158383792793","4.61784632925305",81032,"Toxicological Centre","N/A"
+"CY","Agia Napa","ketamine",0,0,"2025","2024",NA,"stable","CY001","Sewage treatment plant of Agia Napa-Paralimni","34.99075444704176","33.9999814169353",33296,"Nireas","N/A"
+"CY","Larnaca","ketamine",4.06,0,"2025","2024",Inf,"increase","CY002","Sewage Bioard of Larnaca","34.915164353041064","33.6361988334665",41559,"Nireas","N/A"
+"CY","Limassol","ketamine",3.5,3.5,"2025","2024",0,"stable","CY003","Sewerage Board of Limassol-Amathus (SBLA)","34.69","33.02",158365,"Nireas","N/A"
+"CY","Nicosia (2)","ketamine",0.89,0,"2025","2024",Inf,"increase","CY005","Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia;Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia","35.17","33.4",132825,"Nireas",NA
+"CY","Paphos","ketamine",0.9,1.28,"2025","2024",-29.69,"decrease","CY007","Sewage Borad of Pafos","34.775853627551825","32.4215949998929",131160,"Nireas","N/A"
+"CZ","Brno","ketamine",7.58,3.82,"2025","2024",98.43,"increase","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","ketamine",2.33,1.16,"2025","2024",100.86,"increase","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","ketamine",7.27,0,"2025","2024",Inf,"increase","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","ketamine",1.32,2.41,"2025","2024",-45.23,"decrease","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","ketamine",13.99,13.59,"2025","2024",2.94,"stable","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","ketamine",2.54,5.21,"2025","2024",-51.25,"decrease","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","ketamine",132.23,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","ketamine",114.15,0,"2025","2024",Inf,"increase","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","ketamine",27.18,21.59,"2025","2024",25.89,"increase","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","ketamine",19.78,13.28,"2025","2024",48.95,"increase","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","ketamine",25.89,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","ketamine",36.04,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","ketamine",24.77,19.13,"2025","2024",29.48,"increase","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","ketamine",14.62,12.77,"2025","2024",14.49,"increase","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","ketamine",14.69,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","ketamine",15.61,14.51,"2025","2024",7.58,"stable","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","ketamine",10.98,11.96,"2025","2024",-8.19,"stable","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","ketamine",42.72,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","ketamine",27.45,14.74,"2025","2024",86.23,"increase","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","ketamine",64.1,30.39,"2025","2024",110.92,"increase","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","ketamine",3.92,3.4,"2025","2024",15.29,"increase","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","ketamine",42,33.44,"2025","2024",25.6,"increase","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","ketamine",16.63,6.74,"2025","2024",146.74,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","ketamine",18.03,14.73,"2025","2024",22.4,"increase","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","ketamine",9.09,7.22,"2025","2024",25.9,"increase","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","ketamine",83.72,55.96,"2025","2024",49.61,"increase","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Castellon","ketamine",15.47,8.53,"2025","2024",81.36,"increase","ES002","EDAR Castellón","40.23","-0.12",186324,"IUPA","N/A"
+"ES","Granada","ketamine",40.77,NA,"2025","",NA,"no previous data","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","ketamine",1.96,10.61,"2025","2024",-81.53,"decrease","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","ketamine",5.26,3.97,"2025","2024",32.49,"increase","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"ES","Valencia (2)","ketamine",28.23,NA,"2025","",NA,"no previous data","ES009","Pinedo I;Pinedo II","39.47353040047968","-0.3834264875414182",2343766,"SAMA-UV",NA
+"FI","Espoo","ketamine",7.75,3.95,"2025","2024",96.2,"increase","FI001","Blominmäki","60.16","24.71",430000,"THL/Forensic Toxicology","N/A"
+"FI","Helsinki","ketamine",14.09,10.28,"2025","2024",37.06,"increase","FI002","Viikinmäki","60.23","24.99",930000,"THL/Forensic Toxicology","N/A"
+"FI","Tampere","ketamine",24.01,10.89,"2025","2024",120.48,"increase","FI026","Viinikanlahti","61.49","23.77",200000,"THL/Forensic Toxicology","N/A"
+"FI","Turku","ketamine",5.22,5.4,"2025","2024",-3.33,"stable","FI027","Kakolanmäki","60.44","22.24",300000,"THL/Forensic Toxicology","N/A"
+"FR","Paris SC","ketamine",41.6,15.75,"2025","2024",164.13,"increase","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","ketamine",1.5,0,"2025","2024",Inf,"increase","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Split","ketamine",3.35,12.59,"2025","2024",-73.39,"decrease","HR001","Wastewater sampling site at Katalinica Brig, Split","43.51526542","16.44159294",109710,"Department for Water Safety and Supply","N/A"
+"HR","Zagreb","ketamine",3,NA,"2025","",NA,"no previous data","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"HU","Debrecen","ketamine",0,NA,"2025","",NA,"no previous data","HU002",NA,"47.53033","21.61623",207292,"NCPHP/ NSZKK",NA
+"IE","Dublin","ketamine",61.86,43.49,"2025","2024",42.24,"increase","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","ketamine",19.84,NA,"2025","",NA,"no previous data","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","ketamine",26.8,24.92,"2025","2024",7.54,"stable","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LT","Kaunas","ketamine",0,0,"2025","2024",NA,"stable","LT001","Kaunas","54.89687","23.89243",297143,"Toxicological Centre","N/A"
+"LT","Klaipeda","ketamine",0.92,0,"2025","2024",Inf,"increase","LT002","Klaipeda","55.78282","21.49279",305333,"Toxicological Centre","N/A"
+"LT","Vilnius","ketamine",13.21,4.48,"2025","2024",194.87,"increase","LT003","Vilniaus vandenys","54.687156","25.279651",574104,"Toxicological Centre","N/A"
+"LU","Luxembourg","ketamine",2.62,12.4,"2025","2024",-78.87,"decrease","LU002","Beggen","49.61164191","6.12649945",136249,"Laboratoire national de santé","N/A"
+"LV","Riga","ketamine",3.02,0,"2025","2024",Inf,"increase","LV001","Riga","56.94965","24.105186",607381,"Toxicological Centre","N/A"
+"NL","Amsterdam","ketamine",149.33,132.21,"2025","2024",12.95,"increase","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","ketamine",122.33,90.77,"2025","2024",34.77,"increase","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","ketamine",54.87,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","ketamine",63.45,61.44,"2025","2024",3.27,"stable","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","ketamine",55.83,44.25,"2025","2024",26.17,"increase","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","ketamine",36.02,37.9,"2025","2024",-4.96,"stable","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","ketamine",53.65,65.51,"2025","2024",-18.1,"decrease","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","ketamine",15.84,9.59,"2025","2024",65.17,"increase","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","ketamine",4.3,4.05,"2025","2024",6.17,"stable","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","ketamine",1.54,3.03,"2025","2024",-49.17,"decrease","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","ketamine",9.24,14.28,"2025","2024",-35.29,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","ketamine",4.25,0.94,"2025","2024",352.13,"increase","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Gävle","ketamine",13.01,3.5,"2025","2024",271.71,"increase","SE002","Duvbacken ARV","60.674622","17.14183",89463,"RISE","N/A"
+"SE","Stockholm (3)","ketamine",12.26,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SE","Trollhättan","ketamine",4.75,1.88,"2025","2024",152.66,"increase","SE013","Arvidstorps ARV","58.28280282231849","12.28336017746507",59004,"RISE","N/A"
+"SE","Växjö","ketamine",2.52,2.24,"2025","2024",12.5,"increase","SE016","Sundets ARV","56.858257","14.761215",86785,"RISE","N/A"
+"SI","Domzale-Kamnik","ketamine",0,0,"2025","2024",NA,"stable","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","ketamine",0,1.48,"2025","2024",-100,"decrease","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","ketamine",10.51,8.09,"2025","2024",29.91,"increase","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","ketamine",0,1.36,"2025","2024",-100,"decrease","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","ketamine",0,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","ketamine",19.61,2.01,"2025","2024",875.62,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","ketamine",0,0,"2025","2024",NA,"stable","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","ketamine",5.49,5.3,"2025","2024",3.58,"stable","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","ketamine",0.54,2.61,"2025","2024",-79.31,"decrease","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Ankara","ketamine",1.24,NA,"2025","",NA,"no previous data","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"AT","Graz","MDMA",15.77,15.53,"2025","2024",1.55,"stable","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","MDMA",5.99,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","MDMA",5.99,7.05,"2025","2024",-15.04,"decrease","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","MDMA",2,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","MDMA",7.05,9.59,"2025","2024",-26.49,"decrease","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","MDMA",11.88,22.71,"2025","2024",-47.69,"decrease","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","MDMA",11.6,7.79,"2025","2024",48.91,"increase","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","MDMA",6.03,9.5,"2025","2024",-36.53,"decrease","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","MDMA",3.46,5.13,"2025","2024",-32.55,"decrease","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","MDMA",8.22,8.8,"2025","2024",-6.59,"stable","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","MDMA",4.62,5.89,"2025","2024",-21.56,"decrease","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","MDMA",7.98,6.3,"2025","2024",26.67,"increase","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","MDMA",7.96,8.85,"2025","2024",-10.06,"decrease","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","MDMA",9.36,12.16,"2025","2024",-23.03,"decrease","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","MDMA",10.66,9.74,"2025","2024",9.45,"stable","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","MDMA",17.71,21.05,"2025","2024",-15.87,"decrease","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","MDMA",9.05,11.86,"2025","2024",-23.69,"decrease","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","MDMA",8.69,6.02,"2025","2024",44.35,"increase","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"BE","Antwerp Z","MDMA",82.69,140.31,"2025","2024",-41.07,"decrease","BE002","Antwerpen-Zuid","51.21891301755066","4.416696559724063",202983,"Toxicological Centre",NA
+"BE","Arlon","MDMA",28.39,NA,"2025","",NA,"no previous data","BE003","Arlon","49.67825295433016","5.804189382518892",20990,"Toxicological Centre","N/A"
+"BE","Bruges","MDMA",24.11,NA,"2025","",NA,"no previous data","BE005","Bruges","51.20707305666424","3.22930260996085",188590,"Toxicological Centre","N/A"
+"BE","Brussels (2)","MDMA",69.66,NA,"2025","",NA,"no previous data","BE008","Brussel-Noord;Brussels-Zuid","50.84727314011017","4.357895044666108",1391929,"Toxicological Centre",NA
+"BE","Charleroi-Est","MDMA",8.7,NA,"2025","",NA,"no previous data","BE011","Montignies-sur-Sambre","50.40756584511063","4.440515107487087",125724,"Toxicological Centre","N/A"
+"BE","Deurne","MDMA",49.85,NA,"2025","",NA,"no previous data","BE012","Deurne","51.463730148080785","5.792318456631524",233100,"Toxicological Centre","N/A"
+"BE","Ghent","MDMA",33.96,NA,"2025","",NA,"no previous data","BE014","Ghent","51.081940746202875","3.5921375396721005",242877,"Toxicological Centre","N/A"
+"BE","Harelbeke","MDMA",20.23,NA,"2025","",NA,"no previous data","BE015","Harelbeke","50.856861610858864","3.310137297622813",120617,"Toxicological Centre","N/A"
+"BE","Hasselt","MDMA",45.79,NA,"2025","",NA,"no previous data","BE016","Hasselt","50.93144214288282","5.329145917707858",76715,"Toxicological Centre","N/A"
+"BE","Leuven","MDMA",31.81,NA,"2025","",NA,"no previous data","BE018","Leuven","50.878237710708845","4.7005496045026005",133794,"Toxicological Centre","N/A"
+"BE","Liège-Oupeye","MDMA",28.15,NA,"2025","",NA,"no previous data","BE019","Liège-Oupeye","50.639586649870274","5.575261618499351",252775,"Toxicological Centre","N/A"
+"BE","Marche-En-Famenne","MDMA",23.59,NA,"2025","",NA,"no previous data","BE020","Marche-En-Famenne","50.22863106780432","5.3268101889964",9194,"Toxicological Centre","N/A"
+"BE","Mechelen-N","MDMA",18.9,NA,"2025","",NA,"no previous data","BE021","Mechelen-N","51.02848586895685","4.479124231200348",108682,"Toxicological Centre","N/A"
+"BE","Mons","MDMA",8.6,NA,"2025","",NA,"no previous data","BE023","Wasmuel","50.453147047609995","3.95645297175328",158248,"Toxicological Centre","N/A"
+"BE","Namur","MDMA",15.97,NA,"2025","",NA,"no previous data","BE024","Namur Brumagne","50.46483017972681","4.866032095242799",85212,"Toxicological Centre","N/A"
+"BE","Wavre","MDMA",12.44,NA,"2025","",NA,"no previous data","BE028","Basse-Wavre","50.7158383792793","4.61784632925305",81032,"Toxicological Centre","N/A"
+"CZ","Brno","MDMA",19.93,16.12,"2025","2024",23.64,"increase","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","MDMA",26.11,14.72,"2025","2024",77.38,"increase","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","MDMA",9.96,14.32,"2025","2024",-30.45,"decrease","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","MDMA",22.56,23.2,"2025","2024",-2.76,"stable","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","MDMA",56.27,54.74,"2025","2024",2.8,"stable","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","MDMA",14.21,14.2,"2025","2024",0.07,"stable","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","MDMA",66.52,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","MDMA",10.94,11.71,"2025","2024",-6.58,"stable","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","MDMA",13.38,17.11,"2025","2024",-21.8,"decrease","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","MDMA",17.85,28.6,"2025","2024",-37.59,"decrease","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","MDMA",21.83,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","MDMA",22.65,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","MDMA",21.05,26.07,"2025","2024",-19.26,"decrease","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","MDMA",14.99,21.33,"2025","2024",-29.72,"decrease","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","MDMA",17.73,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","MDMA",15.51,39.37,"2025","2024",-60.6,"decrease","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","MDMA",10.59,15.44,"2025","2024",-31.41,"decrease","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","MDMA",16.64,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","MDMA",16.22,22.84,"2025","2024",-28.98,"decrease","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","MDMA",14.5,18.38,"2025","2024",-21.11,"decrease","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","MDMA",6.39,12.33,"2025","2024",-48.18,"decrease","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","MDMA",36.81,37,"2025","2024",-0.51,"stable","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","MDMA",16.12,6.69,"2025","2024",140.96,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","MDMA",10.24,7.12,"2025","2024",43.82,"increase","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","MDMA",6.3,10.03,"2025","2024",-37.19,"decrease","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","MDMA",77.44,47.17,"2025","2024",64.17,"increase","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Castellon","MDMA",17.55,51.94,"2025","2024",-66.21,"decrease","ES002","EDAR Castellón","40.23","-0.12",186324,"IUPA","N/A"
+"ES","Granada","MDMA",85.83,34.34,"2025","2024",149.94,"increase","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","MDMA",26.65,42.47,"2025","2024",-37.25,"decrease","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","MDMA",31.68,16.84,"2025","2024",88.12,"increase","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"FI","Espoo","MDMA",16.26,26.91,"2025","2024",-39.58,"decrease","FI001","Blominmäki","60.16","24.71",430000,"THL/Forensic Toxicology","N/A"
+"FI","Helsinki","MDMA",22.94,35.19,"2025","2024",-34.81,"decrease","FI002","Viikinmäki","60.23","24.99",930000,"THL/Forensic Toxicology","N/A"
+"FI","Tampere","MDMA",18.76,28.54,"2025","2024",-34.27,"decrease","FI026","Viinikanlahti","61.49","23.77",200000,"THL/Forensic Toxicology","N/A"
+"FI","Turku","MDMA",18.92,34.57,"2025","2024",-45.27,"decrease","FI027","Kakolanmäki","60.44","22.24",300000,"THL/Forensic Toxicology","N/A"
+"FR","Paris SC","MDMA",70.97,50.57,"2025","2024",40.34,"increase","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","MDMA",4.04,7.77,"2025","2024",-48.01,"decrease","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Split","MDMA",6.25,35.49,"2025","2024",-82.39,"decrease","HR001","Wastewater sampling site at Katalinica Brig, Split","43.51526542","16.44159294",109710,"Department for Water Safety and Supply","N/A"
+"HR","Zagreb","MDMA",26.14,20.71,"2025","2024",26.22,"increase","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"HU","Budapest","MDMA",49.36,NA,"2025","",NA,"no previous data","HU001",NA,"47.50155794","19.04200692",912698,"NCPHP/ NSZKK",NA
+"HU","Debrecen","MDMA",9.72,NA,"2025","",NA,"no previous data","HU002",NA,"47.53033","21.61623",207292,"NCPHP/ NSZKK",NA
+"IE","Dublin","MDMA",33.77,41.72,"2025","2024",-19.06,"decrease","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","MDMA",5.39,7.68,"2025","2024",-29.82,"decrease","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","MDMA",15.08,14.44,"2025","2024",4.43,"stable","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LT","Kaunas","MDMA",34.26,12.42,"2025","2024",175.85,"increase","LT001","Kaunas","54.89687","23.89243",297143,"Toxicological Centre","N/A"
+"LT","Klaipeda","MDMA",7.21,14.9,"2025","2024",-51.61,"decrease","LT002","Klaipeda","55.78282","21.49279",305333,"Toxicological Centre","N/A"
+"LT","Vilnius","MDMA",25.55,19.75,"2025","2024",29.37,"increase","LT003","Vilniaus vandenys","54.687156","25.279651",574104,"Toxicological Centre","N/A"
+"LU","Luxembourg","MDMA",4.37,22.21,"2025","2024",-80.32,"decrease","LU002","Beggen","49.61164191","6.12649945",136249,"Laboratoire national de santé","N/A"
+"LV","Riga","MDMA",23.38,16.19,"2025","2024",44.41,"increase","LV001","Riga","56.94965","24.105186",607381,"Toxicological Centre","N/A"
+"NL","Amsterdam","MDMA",179.66,282.51,"2025","2024",-36.41,"decrease","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","MDMA",86.28,NA,"2025","",NA,"no previous data","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","MDMA",78.94,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","MDMA",115.95,111.9,"2025","2024",3.62,"stable","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","MDMA",93.05,110.47,"2025","2024",-15.77,"decrease","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","MDMA",31.47,36.65,"2025","2024",-14.13,"decrease","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","MDMA",36.1,37.79,"2025","2024",-4.47,"stable","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","MDMA",22.65,21.17,"2025","2024",6.99,"stable","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","MDMA",25.83,42.26,"2025","2024",-38.88,"decrease","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","MDMA",30.18,17.37,"2025","2024",73.75,"increase","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","MDMA",60.46,81.77,"2025","2024",-26.06,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","MDMA",13.02,21.99,"2025","2024",-40.79,"decrease","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Stockholm (3)","MDMA",14.64,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SI","Domzale-Kamnik","MDMA",7.34,15.23,"2025","2024",-51.81,"decrease","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","MDMA",6.06,11.42,"2025","2024",-46.94,"decrease","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","MDMA",19.89,32.21,"2025","2024",-38.25,"decrease","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","MDMA",12.14,17.84,"2025","2024",-31.95,"decrease","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","MDMA",0,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","MDMA",3.2,1.13,"2025","2024",183.19,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","MDMA",7.44,1.95,"2025","2024",281.54,"increase","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","MDMA",15.69,18.07,"2025","2024",-13.17,"decrease","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","MDMA",2.23,8.58,"2025","2024",-74.01,"decrease","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Ankara","MDMA",3.79,11.44,"2025","2024",-66.87,"decrease","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"TR","Istanbul (II-VII)","MDMA",7.24,14.02,"2025","2024",-48.36,"decrease","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA
+"AT","Graz","methamphetamine",9.54,6.38,"2025","2024",49.53,"increase","AT001","ARA Graz","47.070713","15.439504",527576,"Medical University Innsbruck","N/A"
+"AT","Guntramsdorf","methamphetamine",7.68,NA,"2025","",NA,"no previous data","AT002","Abwasser Service Betrieb Guntramsdorf","48.04843564595618","16.306146280953257",13808,"Medical University Innsbruck","N/A"
+"AT","Hall-Wattens","methamphetamine",2.47,7.22,"2025","2024",-65.79,"decrease","AT003","Abwasserverband Hall in Tirol-Fritzens","47.2930146849463","11.591395302604205",65921,"Medical University Innsbruck","N/A"
+"AT","Hallstatt","methamphetamine",1.95,NA,"2025","",NA,"no previous data","AT004","Reinhaltungsverband Hallstaettersee","47.5618773939694","13.643419310334108",15124,"Medical University Innsbruck","N/A"
+"AT","Hofsteig","methamphetamine",5.1,2.36,"2025","2024",116.1,"increase","AT005","ARA Hofsteig","47.4852271137713","9.679808413337152",104054,"Medical University Innsbruck",NA
+"AT","Innsbruck","methamphetamine",4.37,9.09,"2025","2024",-51.93,"decrease","AT006","ARA Innsbruck","47.269212","11.404102",362299,"Medical University Innsbruck","N/A"
+"AT","Kapfenberg","methamphetamine",2.62,1.13,"2025","2024",131.86,"increase","AT007","Kläranlage Kapfenberg","47.443562","15.2901",36287,"Medical University Innsbruck","N/A"
+"AT","Klagenfurt","methamphetamine",0.84,0.81,"2025","2024",3.7,"stable","AT008","Wasserverband Wörthersee Ost","46.635700","14.311817",189235,"Medical University Innsbruck","N/A"
+"AT","Knittelfeld","methamphetamine",4.42,0.74,"2025","2024",497.3,"increase","AT010","AWV Knittelfeld","47.215950","14.82719",38925,"Medical University Innsbruck","N/A"
+"AT","Kufstein","methamphetamine",1.59,0.68,"2025","2024",133.82,"increase","AT012","Abwasserverband Kufstein","47.582958","12.17077",46172,"Medical University Innsbruck","N/A"
+"AT","Millstaetersee","methamphetamine",1.09,0.84,"2025","2024",29.76,"increase","AT013","Wasserverband Millstaettersee","46.79986421661401","13.56266125818728",82207,"Medical University Innsbruck",NA
+"AT","Ried im Innkreis","methamphetamine",14.87,9.01,"2025","2024",65.04,"increase","AT016","Reinhaltungsverband Ried im Innkreis","48.2254548","13.478626",22463,"Medical University Innsbruck","N/A"
+"AT","Salzburg","methamphetamine",4.07,4.78,"2025","2024",-14.85,"decrease","AT017","ARA Siggerwiesen","47.811195","13.033229",485745,"Medical University Innsbruck","N/A"
+"AT","Steyr","methamphetamine",22.3,16.98,"2025","2024",31.33,"increase","AT018","Reinhaltungsverband Steyr und Umgebung","48.050090","14.41827",77512,"Medical University Innsbruck","N/A"
+"AT","Strass im Zillertal","methamphetamine",10.52,16.2,"2025","2024",-35.06,"decrease","AT019","AIZ Abwasserverband","47.395748","11.82211",111647,"Medical University Innsbruck","N/A"
+"AT","Wien","methamphetamine",45.84,28.98,"2025","2024",58.18,"increase","AT020","Hauptkläranlage Wien","48.210033","16.363449",2758330,"Medical University Innsbruck","N/A"
+"AT","Wiener Neustadt","methamphetamine",39.01,22.05,"2025","2024",76.92,"increase","AT021","AWV Wr. Neustadt-Süd","47.802790","16.23318",138435,"Medical University Innsbruck","N/A"
+"AT","Wildon","methamphetamine",13.56,4.16,"2025","2024",225.96,"increase","AT022","Abwasserverband Grazerfeld","46.885708","15.518532",86528,"Medical University Innsbruck","N/A"
+"BE","Antwerp Z","methamphetamine",38.9,93.94,"2025","2024",-58.59,"decrease","BE002","Antwerpen-Zuid","51.21891301755066","4.416696559724063",202983,"Toxicological Centre",NA
+"BE","Arlon","methamphetamine",0,NA,"2025","",NA,"no previous data","BE003","Arlon","49.67825295433016","5.804189382518892",20990,"Toxicological Centre","N/A"
+"BE","Bruges","methamphetamine",5.66,NA,"2025","",NA,"no previous data","BE005","Bruges","51.20707305666424","3.22930260996085",188590,"Toxicological Centre","N/A"
+"BE","Brussels (2)","methamphetamine",27.84,NA,"2025","",NA,"no previous data","BE008","Brussel-Noord;Brussels-Zuid","50.84727314011017","4.357895044666108",1391929,"Toxicological Centre",NA
+"BE","Charleroi-Est","methamphetamine",0,NA,"2025","",NA,"no previous data","BE011","Montignies-sur-Sambre","50.40756584511063","4.440515107487087",125724,"Toxicological Centre","N/A"
+"BE","Deurne","methamphetamine",13.49,NA,"2025","",NA,"no previous data","BE012","Deurne","51.463730148080785","5.792318456631524",233100,"Toxicological Centre","N/A"
+"BE","Ghent","methamphetamine",2.99,NA,"2025","",NA,"no previous data","BE014","Ghent","51.081940746202875","3.5921375396721005",242877,"Toxicological Centre","N/A"
+"BE","Harelbeke","methamphetamine",3.24,NA,"2025","",NA,"no previous data","BE015","Harelbeke","50.856861610858864","3.310137297622813",120617,"Toxicological Centre","N/A"
+"BE","Hasselt","methamphetamine",0,NA,"2025","",NA,"no previous data","BE016","Hasselt","50.93144214288282","5.329145917707858",76715,"Toxicological Centre","N/A"
+"BE","Leuven","methamphetamine",4.47,NA,"2025","",NA,"no previous data","BE018","Leuven","50.878237710708845","4.7005496045026005",133794,"Toxicological Centre","N/A"
+"BE","Liège-Oupeye","methamphetamine",0,NA,"2025","",NA,"no previous data","BE019","Liège-Oupeye","50.639586649870274","5.575261618499351",252775,"Toxicological Centre","N/A"
+"BE","Marche-En-Famenne","methamphetamine",0,NA,"2025","",NA,"no previous data","BE020","Marche-En-Famenne","50.22863106780432","5.3268101889964",9194,"Toxicological Centre","N/A"
+"BE","Mechelen-N","methamphetamine",0,NA,"2025","",NA,"no previous data","BE021","Mechelen-N","51.02848586895685","4.479124231200348",108682,"Toxicological Centre","N/A"
+"BE","Mons","methamphetamine",0,NA,"2025","",NA,"no previous data","BE023","Wasmuel","50.453147047609995","3.95645297175328",158248,"Toxicological Centre","N/A"
+"BE","Namur","methamphetamine",0,NA,"2025","",NA,"no previous data","BE024","Namur Brumagne","50.46483017972681","4.866032095242799",85212,"Toxicological Centre","N/A"
+"BE","Wavre","methamphetamine",0,NA,"2025","",NA,"no previous data","BE028","Basse-Wavre","50.7158383792793","4.61784632925305",81032,"Toxicological Centre","N/A"
+"CY","Agia Napa","methamphetamine",18.43,5.08,"2025","2024",262.8,"increase","CY001","Sewage treatment plant of Agia Napa-Paralimni","34.99075444704176","33.9999814169353",33296,"Nireas","N/A"
+"CY","Larnaca","methamphetamine",64.28,16.52,"2025","2024",289.1,"increase","CY002","Sewage Bioard of Larnaca","34.915164353041064","33.6361988334665",41559,"Nireas","N/A"
+"CY","Limassol","methamphetamine",11.92,15.9,"2025","2024",-25.03,"decrease","CY003","Sewerage Board of Limassol-Amathus (SBLA)","34.69","33.02",158365,"Nireas","N/A"
+"CY","Nicosia (2)","methamphetamine",13.56,10.82,"2025","2024",25.32,"increase","CY005","Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia;Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia","35.17","33.4",132825,"Nireas",NA
+"CY","Paphos","methamphetamine",15.72,16.56,"2025","2024",-5.07,"stable","CY007","Sewage Borad of Pafos","34.775853627551825","32.4215949998929",131160,"Nireas","N/A"
+"CZ","Brno","methamphetamine",360.16,417.53,"2025","2024",-13.74,"decrease","CZ001","Waterworks and sewage of city Brno ","49.19506","16.606837",445000,"FFPW USB","N/A"
+"CZ","Budweis","methamphetamine",596.5,462.75,"2025","2024",28.9,"increase","CZ002","UCOV CB","48.96","14.46",110000,"FFPW USB",NA
+"CZ","Karlovy Vary","methamphetamine",428.46,371.95,"2025","2024",15.19,"increase","CZ003","COV Karloy Vary","50.23204","12.87099",67544,"T.G.Masaryk Water Research Institute","N/A"
+"CZ","Pilzen","methamphetamine",499.44,484.72,"2025","2024",3.04,"stable","CZ005","COV Plzen","49.73945","13.37329",178677,"T.G.Masaryk Water Research Institute",NA
+"CZ","Prague (2)","methamphetamine",418.49,408.54,"2025","2024",2.44,"stable","CZ006","ÚCOV Praha","50.11584348","14.39671894",1212000,"T.G.Masaryk Water Research Institute","www.frov.jcu.cz/en/"
+"CZ","Ústí nad Labem","methamphetamine",586.34,595.46,"2025","2024",-1.53,"stable","CZ009","COV Ústí - Nestemice","50.667583","14.10462173",92572,"T.G.Masaryk Water Research Institute","N/A"
+"DE","Berlin (IV)","methamphetamine",37.54,NA,"2025","",NA,"no previous data","DE002","Muenchehofe;Ruhleben;Schönerlinde;Wasmannsdorf","52.52336753180836","13.398001442006635",3948000,"Clinical Pharmacology TU Dresden",NA
+"DE","Chemnitz","methamphetamine",381.6,362,"2025","2024",5.41,"stable","DE013","Chemnitz","50.827845","12.92137",239402,"Clinical Pharmacology TU Dresden",NA
+"DE","Dresden","methamphetamine",327.16,399.64,"2025","2024",-18.14,"decrease","DE015","Dresden-Kaditz","51.05089","13.73832",671806,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Erfurt","methamphetamine",371.23,334.94,"2025","2024",10.83,"increase","DE017","Erfurt","50.984768","11.02988",215199,"Clinical Pharmacology TU Dresden",NA
+"DE","Frankfurt (3)","methamphetamine",24.38,NA,"2025","",NA,"no previous data","DE018","Griesheim;Niederrad;Sindlingen","50.110922","8.682127",1157800,"Clinical Pharmacology TU Dresden",NA
+"DE","Hamburg (2)","methamphetamine",6.53,NA,"2025","",NA,"no previous data","DE022","Nord;Süd","53.551085","9.993682",2050000,"Clinical Pharmacology TU Dresden",NA
+"DE","Hannover (2)","methamphetamine",0.55,5.42,"2025","2024",-89.85,"decrease","DE025","Gummerwald;Herrenhausen","52.375892","9.73201",793400,"Clinical Pharmacology TU Dresden",NA
+"DE","Magdeburg","methamphetamine",218.17,195.41,"2025","2024",11.65,"increase","DE028","Magdeburg","52.120533","11.627624",281150,"Clinical Pharmacology TU Dresden",NA
+"DE","Mainz","methamphetamine",18.07,NA,"2025","",NA,"no previous data","DE029",NA,"49.992862","8.247253",223000,"Clinical Pharmacology TU Dresden",NA
+"DE","Munich G","methamphetamine",10.93,18.86,"2025","2024",-42.05,"decrease","DE031","Gut Grosslappen","48.13764339519633","11.57613349031283",1171100,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Nuremberg","methamphetamine",166.51,175.17,"2025","2024",-4.94,"stable","DE033","Nürnberg","49.45069156723305","11.036918849315624",451472,"Clinical Pharmacology TU Dresden","N/A"
+"DE","Rostock","methamphetamine",3.45,NA,"2025","",NA,"no previous data","DE034",NA,"54.092441","12.099147",242093,"Clinical Pharmacology TU Dresden",NA
+"DE","Stuttgart","methamphetamine",13.21,14.21,"2025","2024",-7.04,"stable","DE038",NA,"48.775846","9.182932",609000,"Clinical Pharmacology TU Dresden",NA
+"DK","Aalborg","methamphetamine",1.94,4.26,"2025","2024",-54.46,"decrease","DK001","Aalborg Renseanlæg Vest","57.04855704","9.865213642",143285,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Aarhus","methamphetamine",1.16,6.72,"2025","2024",-82.74,"decrease","DK002","Marselisborg Renseanlæg","56.1631","10.20256",131038,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Copenhagen","methamphetamine",32.72,25.38,"2025","2024",28.92,"increase","DK003","Lynetten","55.69","12.62",662529,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Esbjerg","methamphetamine",6.57,2.58,"2025","2024",154.65,"increase","DK004","Esbjerg Renseanlæg Vest","55.48812791","8.430608708",61865,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Næstved","methamphetamine",3.05,0.91,"2025","2024",235.16,"increase","DK005","Næstved Renseanlæg","55.2229935","11.74855352",70094,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"DK","Odense","methamphetamine",3.61,1.5,"2025","2024",140.67,"increase","DK006","Ejby Mølle","55.40132682133402","10.3875142603132",135014,"Department of Forensic Medicine, Section for Forensic Chemistry, Aarhus University, Denmark","N/A"
+"ES","Barcelona","methamphetamine",72.84,52.36,"2025","2024",39.11,"increase","ES001","Baix Llobregat","41.43","1.97",1206813,"IDAEA-CSIC","N/A"
+"ES","Granada","methamphetamine",1.84,NA,"2025","",NA,"no previous data","ES003","Granada","37.17752","-3.59539",233821,"UGR","N/A"
+"ES","Lleida","methamphetamine",1,0,"2025","2024",Inf,"increase","ES004","EDAR Lleida","41.616862672395065","0.6206210195712387",144887,"IDAEA-CSIC","N/A"
+"ES","Santiago","methamphetamine",0,0,"2025","2024",NA,"stable","ES007","Silvouta","42.88","-8.54",136500,"USC","N/A"
+"ES","Valencia (2)","methamphetamine",3.48,NA,"2025","",NA,"no previous data","ES009","Pinedo I;Pinedo II","39.47353040047968","-0.3834264875414182",2343766,"SAMA-UV",NA
+"FI","Espoo","methamphetamine",9.07,16.71,"2025","2024",-45.72,"decrease","FI001","Blominmäki","60.16","24.71",430000,"THL/Forensic Toxicology","N/A"
+"FI","Helsinki","methamphetamine",15.36,22.89,"2025","2024",-32.9,"decrease","FI002","Viikinmäki","60.23","24.99",930000,"THL/Forensic Toxicology","N/A"
+"FI","Tampere","methamphetamine",7.03,3.02,"2025","2024",132.78,"increase","FI026","Viinikanlahti","61.49","23.77",200000,"THL/Forensic Toxicology","N/A"
+"FI","Turku","methamphetamine",23.69,9.87,"2025","2024",140.02,"increase","FI027","Kakolanmäki","60.44","22.24",300000,"THL/Forensic Toxicology","N/A"
+"FR","Paris SC","methamphetamine",15.98,12.25,"2025","2024",30.45,"increase","FR005","Seine Centre","48.95","2.27",2700000,"METIS",NA
+"GR","Athens","methamphetamine",14.44,20.35,"2025","2024",-29.04,"decrease","GR001","Psyttalia Wastewater Treatment  Plant;City of eleusis WWTP","37.9928017","23.7658005",3507341,"Laboratory of Analytical Chemistry (LAC) of the Departmnet of Chemistry of the National and Kapodistrian University of Athens (NKUA);NA",NA
+"HR","Split","methamphetamine",1.18,1.84,"2025","2024",-35.87,"decrease","HR001","Wastewater sampling site at Katalinica Brig, Split","43.51526542","16.44159294",109710,"Department for Water Safety and Supply","N/A"
+"HR","Zagreb","methamphetamine",40.14,45.47,"2025","2024",-11.72,"decrease","HR002","Central wastewater treatment plant of the city of Zagreb ","45.7929993","15.9463997",650000,"Institute Ruder Boskovic","N/A"
+"HU","Budapest","methamphetamine",15.45,11.01,"2025","2024",40.33,"increase","HU001",NA,"47.50155794","19.04200692",912698,"NCPHP/ NSZKK",NA
+"HU","Debrecen","methamphetamine",9.6,NA,"2025","",NA,"no previous data","HU002",NA,"47.53033","21.61623",207292,"NCPHP/ NSZKK",NA
+"IE","Dublin","methamphetamine",19.79,21.56,"2025","2024",-8.21,"stable","IE001","Ringsend ","53.34874586","-6.277189185",1980000,"Mario Negri Institute","N/A"
+"IT","Bozen","methamphetamine",1.2,1.06,"2025","2024",13.21,"increase","IT002","Kläranlage Bozen","46.49672","11.358",259084,"Medical University Innsbruck","N/A"
+"IT","Milan","methamphetamine",13.13,11.14,"2025","2024",17.86,"increase","IT003","Nosedo","45.4337997","9.2213602",1089332,"Mario Negri Institute","N/A"
+"LT","Kaunas","methamphetamine",167.23,NA,"2025","",NA,"no previous data","LT001","Kaunas","54.89687","23.89243",297143,"Toxicological Centre","N/A"
+"LT","Klaipeda","methamphetamine",1.43,1.49,"2025","2024",-4.03,"stable","LT002","Klaipeda","55.78282","21.49279",305333,"Toxicological Centre","N/A"
+"LT","Vilnius","methamphetamine",6.44,5.63,"2025","2024",14.39,"increase","LT003","Vilniaus vandenys","54.687156","25.279651",574104,"Toxicological Centre","N/A"
+"LU","Luxembourg","methamphetamine",0.74,2.36,"2025","2024",-68.64,"decrease","LU002","Beggen","49.61164191","6.12649945",136249,"Laboratoire national de santé","N/A"
+"LV","Riga","methamphetamine",6.06,22.36,"2025","2024",-72.9,"decrease","LV001","Riga","56.94965","24.105186",607381,"Toxicological Centre","N/A"
+"NL","Amsterdam","methamphetamine",55.04,64.4,"2025","2024",-14.53,"decrease","NL001","RWZI Amsterdam-WEST","52.375","4.8666668",699648,"KWR Water Research Institute","N/A"
+"NL","Eindhoven","methamphetamine",16.22,NA,"2025","",NA,"no previous data","NL002","RWZI Eindhoven","51.4421082","5.4800701",468599,"KWR Water Research Institute","N/A"
+"NL","Nieuwgein","methamphetamine",3.88,NA,"2025","",NA,"no previous data","NL006","pompstation Nieuwgein","52.02477338747533","5.092164527473918",65461,"KWR Water Research Institute","N/A"
+"NL","Rotterdam (2)","methamphetamine",20.31,9.8,"2025","2024",107.24,"increase","NL008","RWZI Dokhaven;RWZI Kralinserveer","51.92288","4.47847",620313,"KWR Water Research Institute",NA
+"NL","Utrecht","methamphetamine",11.09,8.64,"2025","2024",28.36,"increase","NL011","RWZI Utrecht","52.0858002","5.1308398",274295,"KWR Water Research Institute","N/A"
+"NO","Bergen (2)","methamphetamine",62.79,0,"2025","2024",Inf,"increase","NO001","Knappen Renseanlegg;Holen Renseanlegg","60.39453688","5.289335039",117976,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Oslo (2)","methamphetamine",29.48,29.35,"2025","2024",0.44,"stable","NO007","VEAS;Bekkelaget Renseanlegg","59.91124354","10.75077126",929199,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"NO","Trondheim (2)","methamphetamine",0,5.74,"2025","2024",-100,"decrease","NO009","Ladehammeren Renseanlegg;Høvringen Renseanlegg","63.4299484107294","10.393700960446434",211876,"Department of Clinical Pharmacology, St. Olavs hospital, Trondheim University Hospital",NA
+"PL","Krakow P","methamphetamine",1.82,3.57,"2025","2024",-49.02,"decrease","PL003","Krakow Plaszow","50.06","19.94",680000,"Mario Negri Institute","N/A"
+"PT","Almada","methamphetamine",0.21,0.33,"2025","2024",-36.36,"decrease","PT001","Mutela","38.675187","-9.154345",138685,"INMLCF","N/A"
+"PT","Lisbon","methamphetamine",5.79,10.78,"2025","2024",-46.29,"decrease","PT002","Alcântara","38.7044907","-9.1754999",426964,"INMLCF","N/A"
+"PT","Porto","methamphetamine",0,1.49,"2025","2024",-100,"decrease","PT003","Porto","41.157944","-8.629105",150000,"USC",NA
+"SE","Stockholm (3)","methamphetamine",7.38,NA,"2025","",NA,"no previous data","SE006","Käppalaförbundet;Henriksdals reningsverk;Bromma (BIN)","59.332745673511184","18.07282424498083",1314631,"SLU;RISE",NA
+"SI","Domzale-Kamnik","methamphetamine",0,0,"2025","2024",NA,"stable","SI001","Domzale-Kamnik","46.13788","14.59384",81400,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Kranj","methamphetamine",0,0.73,"2025","2024",-100,"decrease","SI003","Central wastewater treatment plant Kranj","46.242834","14.355542",65000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Ljubljana","methamphetamine",6.58,4.67,"2025","2024",40.9,"increase","SI004","Central wastewater treatment plant Ljubljana","46.056947","14.505751",284266,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Maribor","methamphetamine",0,0,"2025","2024",NA,"stable","SI005","Maribor","46.55734","15.64591",129000,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Nova Gorica","methamphetamine",58.84,NA,"2025","",NA,"no previous data","SI006","WWTP Nova Gorica","45.95499360465508","13.647961418086751",24558,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis",NA
+"SI","Novo mesto","methamphetamine",0.94,0,"2025","2024",Inf,"increase","SI007","Wastewater treatment plant Novo mesto","45.804211","15.16969",26103,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SI","Velenje","methamphetamine",0,0,"2025","2024",NA,"stable","SI008","Central wastewater treatment plant Saleske Doline (Salek Valley)","46.362274","15.110658",32959,"Jozef Stefan Institute, Environmental department, Laboratory for organic analysis","N/A"
+"SK","Bratislava C","methamphetamine",260.72,295.37,"2025","2024",-11.73,"decrease","SK002","Central","48.14925","17.106991",450000,"University of South Bohemia in Ceské Budejovice - Vodnany","N/A"
+"SK","Piestany","methamphetamine",326.67,223.78,"2025","2024",45.98,"increase","SK004","Piestany","48.5918007","17.8019009",35000,"University of South Bohemia in Ceské Budejovice - Vodnany",NA
+"TR","Ankara","methamphetamine",19.33,NA,"2025","",NA,"no previous data","TR002","Tatlar","39.93436","32.88606",5108556,"Ankara- Lab139","N/A"
+"TR","Istanbul (II-VII)","methamphetamine",30.98,72.13,"2025","2024",-57.05,"decrease","TR004","ATAKÖY;BALTALIMANI;KADIKÖY;KÜÇÜKÇEKMECE;TUZLA;YENIKAPI","41.013","28.9748",16525000,"Istanbul",NA

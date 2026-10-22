@@ -1,0 +1,70 @@
+# Urban scaling of illicit drug use in European wastewater
+
+Working title: *Urban scaling and hierarchical diffusion of illicit drug use:
+evidence from wastewater in ~200 European catchments, 2011–2025*
+
+Does the per-capita load of drug residues in wastewater grow with the
+population of the catchment ("urban scaling"), for which substances, and does
+the big-city advantage for cocaine shrink over time ("hierarchical
+diffusion")? The full analysis plan is in [`PROJEKTPLAN.md`](PROJEKTPLAN.md)
+(German). All decisions and deviations from the plan are logged in
+[`DECISIONS.md`](DECISIONS.md).
+
+## Data
+
+Source: European Union Drugs Agency (EUDA, formerly EMCDDA) and the SCORE
+group, *Drugs in municipal wastewater in Europe: source data*, release 2026
+(measurement years 2011–2025),
+<https://www.euda.europa.eu/data/drugs-municipal-wastewater-europe-source-data_en>.
+Reuse requires attribution to both EUDA and SCORE.
+
+| File in `data/raw/` | Content |
+|---|---|
+| `ww2026-all-data.csv` | All measurements: year, substance, site, daily values Wed–Tue, means |
+| `ww2026-site-info-table.csv` | Treatment plants: site ID, coordinates, population, institution |
+| `ww2026-changes-all-substance.csv` | Change 2024→2025 per city and substance (EUDA classification) |
+
+The files in `data/raw/` are the original downloads and are never modified.
+Their MD5 checksums are stored in `data/raw_md5.txt`; every script checks them
+at start-up and stops if a file has changed.
+
+## How to reproduce
+
+1. Install R (≥ 4.3).
+2. Open `kokain-skalierung.Rproj` in RStudio, or start R in the project folder.
+3. Install the recorded package versions with `renv::restore()`
+   (the lockfile `renv.lock` will be added in phase 0).
+4. Run everything: `Rscript run_all.R` in a terminal, or `source("run_all.R")`
+   in the R console.
+
+`run_all.R` runs the scripts in `R/` one after another, each in a fresh R
+process, and writes one log per script plus the session info to
+`output/logs/`.
+
+## Project structure
+
+```
+├── CLAUDE.md            # working rules for Claude Code
+├── PROJEKTPLAN.md       # analysis plan (German)
+├── DECISIONS.md         # log of decisions and deviations (German)
+├── README.md
+├── run_all.R            # runs all scripts in order
+├── kokain-skalierung.Rproj
+├── data/
+│   ├── raw/             # original files, never modified
+│   ├── raw_md5.txt      # checksums of the raw files
+│   └── processed/       # cleaned data (generated, not in git)
+├── R/
+│   ├── 00_setup.R       # packages, options, seed, paths, raw-data check
+│   ├── functions.R      # helper functions
+│   └── 01_import_clean.R … 07_figures.R
+├── output/
+│   ├── figures/         # PDF + PNG (300 dpi)
+│   ├── tables/          # CSV + HTML
+│   └── logs/
+└── paper/
+```
+
+## Status
+
+Phase 0 (setup) in progress.
