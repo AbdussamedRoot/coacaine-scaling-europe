@@ -86,5 +86,4 @@ MAKEFLAGS=-j"$(nproc)" Rscript -e 'renv::restore(prompt = FALSE)'
 
 ## Status
 
-Phase 0 (setup) in progress: packages are being installed, `renv.lock`
-follows.
+Phase 0 (setup) complete. Next: phase 1 (data cleaning and audit).
