@@ -17,6 +17,7 @@ Forschungsprojekt mit öffentlichen Abwasserdaten (EUDA/SCORE, 2011–2025): Ska
 5. **Keine erfundenen Zitate oder Zahlen.** Literatur nur nennen, wenn ich sie geprüft habe; Zahlen im Text immer aus den Outputs.
 6. Bei Zufall immer `set.seed(2026)`.
 7. Code-Kommentare und Variablennamen auf Englisch, Erklärungen an mich auf Deutsch.
+8. **Das Repo ist öffentlich.** Keine persönlichen Angaben über mich (z. B. Alter, Schule, Wohnort) in Dateien, Outputs oder Commit-Nachrichten.
 
 ## Technik
 - Sprache: **R**. Pakete: readr, dplyr, tidyr, stringr, ggplot2, here, fixest, lme4, lmerTest, broom.mixed, modelsummary, patchwork, renv.
