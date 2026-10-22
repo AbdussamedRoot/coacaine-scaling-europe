@@ -1,0 +1,16 @@
+sample_group,country,site_id_a,city_a,location_a,population_a,years_a,site_id_b,city_b,location_b,population_b,years_b,distance_km,pop_ratio,same_name,name_contained,same_location,close
+europe_other,CH,CH002,Basel,ARA Basel,273075,"2012,2013,2014,2015,2016,2017,2018,2019,2021,2022,2023,2024",CH003,Basel (2),ARA Basel,273000,2025,0,1,TRUE,TRUE,TRUE,TRUE
+europe_other,CH,CH018,Zurich,Werdhölzli,471275,"2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024",CH019,Zurich (2),Werdhölzli,471000,2025,0,0.999,TRUE,TRUE,TRUE,TRUE
+europe_other,IS,IS001,Reykjavik,Klettagarðar,111000,2025,IS003,Reykjavik Klettagarðar,Klettagarðar,108000,"2015,2016,2017,2018,2019,2020,2022,2023,2024",6.6,0.973,FALSE,TRUE,TRUE,FALSE
+main,AT,AT020,Wien,Hauptkläranlage Wien,2758330,"2022,2023,2024,2025",AT021,Wiener Neustadt,AWV Wr. Neustadt-Süd,138435,"2022,2023,2024,2025",46.3,0.05,FALSE,TRUE,FALSE,FALSE
+main,BE,BE001,Antwerp Deurne,Antwerp D.,213876,"2012,2013,2014,2015,2016",BE012,Deurne,Deurne,233100,2025,96.4,1.09,FALSE,TRUE,FALSE,FALSE
+main,BE,BE005,Bruges,Bruges,188590,2025,BE006,Brugge,Brugge,300000,2018,0.4,1.591,FALSE,FALSE,FALSE,TRUE
+main,BE,BE007,Brussels,Brussel-Noord,1030306,"2011,2012,2013,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024",BE008,Brussels (2),Brussel-Noord; Brussels-Zuid,1391929,2025,1.4,1.351,TRUE,TRUE,FALSE,TRUE
+main,DE,DE001,Berlin (4),Berlin (4),3993500,"2014,2015,2017,2018,2022",DE002,Berlin (IV),Muenchehofe; Ruhleben; Schönerlinde; Wasmannsdorf,3948000,2025,0.4,0.989,TRUE,TRUE,FALSE,TRUE
+main,ES,ES009,Valencia (2),Pinedo I; Pinedo II,2343766,2025,ES010,Valencia (3),Pinedo I; Pinedo II; Quart-Benager,1471771,"2011,2013,2014,2015,2016,2017,2018,2019,2021,2022,2023",4.8,0.628,TRUE,TRUE,FALSE,FALSE
+main,HU,H001,Debrecen,Debrecen Waterworks Wastewater Treatment Plant,207292,2023,HU002,Debrecen,NA,207292,2025,0,1,TRUE,TRUE,FALSE,TRUE
+main,NL,NL005,Nieuwegein Ijssel.,Nieuwegein Ijssel.,96000,2017,NL006,Nieuwgein,pompstation Nieuwgein,65461,2025,0,0.682,FALSE,FALSE,FALSE,TRUE
+main,SE,SE005,Stockholm (2),Bromma (BIN); Henriksdals reningsverk,760407,"2016,2019,2020,2021,2024",SE006,Stockholm (3),Käppalaförbundet,554224,2025,0.5,0.729,TRUE,TRUE,FALSE,TRUE
+main,TR,TR003,Istanbul I,Istanbul,69000,2018,TR004,Istanbul (II-VII),ATAKÖY; BALTALIMANI; KADIKÖY; KÜÇÜKÇEKMECE; TUZLA; YENIKAPI,16525000,"2019,2020,2021,2022,2023,2024,2025",0,239.493,FALSE,TRUE,FALSE,TRUE
+non_europe,AU,AU001,Australia (55 sites),Sum of 55 WWTPs,14095000,2023,AU003,Australia (59 sites),Sum of 59 WWTPs,14166000,2024,0,1.005,TRUE,TRUE,FALSE,TRUE
+non_europe,US,US002,Seattle,Westpoint,893000,"2023,2024",US003,Seattle (2),Westpoint; South,1764000,2025,9.3,1.975,TRUE,TRUE,FALSE,FALSE

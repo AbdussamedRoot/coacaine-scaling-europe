@@ -14,3 +14,11 @@ check_raw_data <- function(checksum_file = here::here("data", "raw_md5.txt")) {
   }
   invisible(TRUE)
 }
+
+# Great-circle distance in km between points given in decimal degrees.
+haversine_km <- function(lat1, lon1, lat2, lon2) {
+  rad <- pi / 180
+  a <- sin((lat2 - lat1) * rad / 2)^2 +
+    cos(lat1 * rad) * cos(lat2 * rad) * sin((lon2 - lon1) * rad / 2)^2
+  6371 * 2 * asin(sqrt(a))
+}

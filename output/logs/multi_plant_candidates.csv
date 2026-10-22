@@ -1,0 +1,33 @@
+sample_group,site_id,country,city,location,n_plants_listed,count_in_name,population,years
+europe_other,CH003,CH,Basel (2),ARA Basel,1,TRUE,273000,2025
+europe_other,CH019,CH,Zurich (2),Werdhölzli,1,TRUE,471000,2025
+main,BE008,BE,Brussels (2),Brussel-Noord; Brussels-Zuid,2,TRUE,1391929,2025
+main,CY005,CY,Nicosia (2),Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia; Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia,2,TRUE,132825,"2021,2022,2023,2024,2025"
+main,CZ006,CZ,Prague (2),ÚCOV Praha,1,TRUE,1212000,"2012,2013,2019,2020,2021,2022,2024,2025"
+main,DE001,DE,Berlin (4),Berlin (4),1,TRUE,3993500,"2014,2015,2017,2018,2022"
+main,DE002,DE,Berlin (IV),Muenchehofe; Ruhleben; Schönerlinde; Wasmannsdorf,4,TRUE,3948000,2025
+main,DE018,DE,Frankfurt (3),Sindlingen; Griesheim; Niederrad,3,TRUE,1157800,"2017,2025"
+main,DE022,DE,Hamburg (2),Nord; Süd,2,TRUE,2050000,"2017,2020,2025"
+main,DE025,DE,Hannover (2),Gummerwald; Herrenhausen,2,TRUE,793400,"2017,2024,2025"
+main,DE035,DE,Saarbrücken (2),Brebach; Burbach,2,TRUE,203643,"2017,2018,2019,2020,2021,2022,2023,2024"
+main,EE001,EE,Kohtla-Järve (2),Kohtla-Järve (2),1,TRUE,47325,2022
+main,ES009,ES,Valencia (2),Pinedo I; Pinedo II,2,TRUE,2343766,2025
+main,ES010,ES,Valencia (3),Pinedo I; Pinedo II; Quart-Benager,3,TRUE,1471771,"2011,2013,2014,2015,2016,2017,2018,2019,2021,2022,2023"
+main,NL008,NL,Rotterdam (2),RWZI Dokhaven; RWZI Kralinserveer,2,TRUE,620313,"2023,2024,2025"
+main,NO001,NO,Bergen (2),Knappen Renseanlegg; Holen Renseanlegg,2,TRUE,117976,"2024,2025"
+main,NO007,NO,Oslo (2),VEAS; Bekkelaget Renseanlegg,2,TRUE,929199,"2024,2025"
+main,NO009,NO,Trondheim (2),Ladehammeren Renseanlegg; Høvringen Renseanlegg,2,TRUE,211876,"2024,2025"
+main,SE005,SE,Stockholm (2),Bromma (BIN); Henriksdals reningsverk,2,TRUE,760407,"2016,2019,2020,2021,2024"
+main,SE006,SE,Stockholm (3),Käppalaförbundet,1,TRUE,554224,2025
+main,TR004,TR,Istanbul (II-VII),ATAKÖY; BALTALIMANI; KADIKÖY; KÜÇÜKÇEKMECE; TUZLA; YENIKAPI,6,TRUE,16525000,"2019,2020,2021,2022,2023,2024,2025"
+non_europe,AU001,AU,Australia (55 sites),Sum of 55 WWTPs,1,TRUE,14095000,2023
+non_europe,AU002,AU,Sum of 56 WWTPs,Sum of 56 WWTPs,1,FALSE,13144000,2025
+non_europe,AU003,AU,Australia (59 sites),Sum of 59 WWTPs,1,TRUE,14166000,2024
+non_europe,BR005,BR,Belo Horizonte (2),ETE Arruda; ETE Onça,2,TRUE,2245267,"2023,2024"
+non_europe,BR007,BR,Brasilia (I-VII),ETE Brasília Sul; ETE Brasília Norte; ETE Melchior; ETE Gama; ETE Palanltina; ETE Riacho Fundo; ETE São Sebastião,7,TRUE,2483677,"2023,2024"
+non_europe,BR010,BR,Curitiba (2),ETE Atuba; ETE Belém,2,TRUE,1894000,"2023,2024"
+non_europe,BR019,BR,Niterói (2),ETE Icaraí; ETE Toc-Toc,2,TRUE,380433,2024
+non_europe,BR023,BR,Porto Alegre (2 - 2024),ETE Navegantes; ETE Serraria,2,TRUE,880000,2024
+non_europe,BR032,BR,São Paulo (I-V),ETE Suzano; ETE São Miguel; ETE ABC; ETE Barueri; ETE Novo Mundo,5,TRUE,11720559,"2023,2024"
+non_europe,NZ004,NZ,Wellington (M1+M2),Wellington metropolitan 1; Wellington metropolitan 2,2,TRUE,340765,"2023,2024,2025"
+non_europe,US003,US,Seattle (2),Westpoint; South,2,TRUE,1764000,2025

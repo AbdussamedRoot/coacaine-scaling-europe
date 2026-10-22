@@ -39,7 +39,8 @@ suppressPackageStartupMessages({
 })
 
 # ---- Options and seed --------------------------------------------------------
-options(readr.show_col_types = FALSE)
+# Wide console output so that tables in output/logs/ are not wrapped
+options(readr.show_col_types = FALSE, width = 200)
 
 # Baseline seed; scripts that use randomness call set.seed(2026) again
 # directly before the random step.
