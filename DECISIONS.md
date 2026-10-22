@@ -12,9 +12,10 @@ Format: **Nummer · Datum · Phase · Abweichung vom Plan?** – Entscheidung �
 ## D001 · 2026-10-22 · Phase 0 · keine Abweichung
 
 **Rohdaten-Schutz.** Die drei EUDA-Dateien liegen byte-identisch zum Download
-in `data/raw/` und sind schreibgeschützt. Ihre MD5-Prüfsummen stehen in
-`data/raw_md5.txt`. `R/00_setup.R` prüft sie bei jedem Skriptstart und bricht
-ab, wenn eine Datei fehlt oder verändert wurde.
+in `data/raw/`. Ihre MD5-Prüfsummen stehen in `data/raw_md5.txt`.
+`R/00_setup.R` prüft sie bei jedem Skriptstart und bricht ab, wenn eine Datei
+fehlt oder verändert wurde. `.gitattributes` verhindert, dass Git die
+Zeilenenden der Dateien umwandelt (das würde die Prüfsummen brechen).
 
 *Begründung:* setzt Regel 1 (CLAUDE.md) technisch durch – eine versehentliche
 Änderung der Rohdaten fällt sofort auf.
@@ -39,3 +40,16 @@ neu erzeugt. Für die Veröffentlichung (§10) werden die bereinigten Daten
 später zusätzlich bereitgestellt.
 
 *Begründung:* Abgeleitete Daten in Git können unbemerkt vom Code abweichen.
+
+## D004 · 2026-10-22 · Phase 0 · keine Abweichung
+
+**R-Version und Paketquelle.** R 4.6.1 (offizieller CRAN-Build für Ubuntu
+24.04). Alle Pakete kommen von CRAN. `renv.lock` hält die R-Version und die
+exakte Version jedes Pakets fest (`renv` 1.3.1); `renv::restore()` installiert
+auf jedem Rechner genau diese Versionen.
+
+*Begründung:* Gleiche Paketversionen bedeuten gleiche Ergebnisse, auch in
+einem Jahr. CRAN ist die offizielle Quelle. Der schnellere Posit Package
+Manager (fertig kompilierte Pakete) ist in der Cloud-Umgebung zurzeit nicht
+nutzbar; ein späterer Wechsel der Download-Quelle würde keine Versionen
+ändern.

@@ -30,16 +30,33 @@ at start-up and stops if a file has changed.
 
 ## How to reproduce
 
-1. Install R (≥ 4.3).
+1. Install R 4.6 (`renv.lock` records the exact version used, 4.6.1).
 2. Open `kokain-skalierung.Rproj` in RStudio, or start R in the project folder.
-3. Install the recorded package versions with `renv::restore()`
-   (the lockfile `renv.lock` will be added in phase 0).
+3. Install the exact package versions recorded in `renv.lock` with
+   `renv::restore()`. On Linux the packages are compiled from source, which
+   takes 10–20 minutes.
 4. Run everything: `Rscript run_all.R` in a terminal, or `source("run_all.R")`
    in the R console.
 
 `run_all.R` runs the scripts in `R/` one after another, each in a fresh R
 process, and writes one log per script plus the session info to
 `output/logs/`.
+
+### Fresh Ubuntu 24.04 machine (e.g. a cloud container)
+
+```bash
+# R from the official CRAN apt repository, plus libraries needed to compile
+curl -fsSL https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
+  -o /etc/apt/keyrings/cran_ubuntu_key.asc
+echo "deb [signed-by=/etc/apt/keyrings/cran_ubuntu_key.asc] https://cloud.r-project.org/bin/linux/ubuntu noble-cran40/" \
+  > /etc/apt/sources.list.d/cran-r.list
+apt-get update
+apt-get install -y --no-install-recommends r-base r-base-dev \
+  libnlopt-dev libicu-dev cmake pkg-config
+
+# In the project folder: renv installs itself, then all packages
+MAKEFLAGS=-j"$(nproc)" Rscript -e 'renv::restore(prompt = FALSE)'
+```
 
 ## Project structure
 
@@ -50,6 +67,8 @@ process, and writes one log per script plus the session info to
 ├── README.md
 ├── run_all.R            # runs all scripts in order
 ├── kokain-skalierung.Rproj
+├── renv.lock            # exact R and package versions
+├── .Rprofile, renv/     # activate renv when R starts in the project
 ├── data/
 │   ├── raw/             # original files, never modified
 │   ├── raw_md5.txt      # checksums of the raw files
@@ -67,4 +86,5 @@ process, and writes one log per script plus the session info to
 
 ## Status
 
-Phase 0 (setup) in progress.
+Phase 0 (setup) in progress: packages are being installed, `renv.lock`
+follows.
