@@ -53,3 +53,66 @@ einem Jahr. CRAN ist die offizielle Quelle. Der schnellere Posit Package
 Manager (fertig kompilierte Pakete) ist in der Cloud-Umgebung zurzeit nicht
 nutzbar; ein späterer Wechsel der Download-Quelle würde keine Versionen
 ändern.
+
+## D005 · 2026-10-22 · Phase 1 · Abweichung: keine Zuordnungstabelle
+
+**Site IDs werden nie zusammengelegt.** Jede Site ID ist eine eigene
+Messstelle. Plan §3.3 Punkt 2 sah eine Zuordnungstabelle vor, falls Städte
+über die Jahre wechselnde Namen oder IDs haben. Befund: Keine Site ID wechselt
+ihren Stadtnamen, aber manche Anlagen erscheinen später unter einer neuen ID
+(meist 2025), z. B. Berlin (DE001, später DE002) und Debrecen (H001, später
+HU002). Solche möglichen Paare werden automatisch gesucht und in
+`output/logs/site_id_candidates.csv` dokumentiert, aber nicht zusammengelegt.
+
+*Begründung:* Bei vielen Paaren ist nicht sicher, ob es dasselbe
+Einzugsgebiet ist (Brüssel: nur Nord gegenüber Nord + Süd; Brügge: 37 %
+weniger Einwohner). Zusammenlegen könnte verschiedene Einzugsgebiete
+vermischen. Getrennt lassen kostet nur Daten – in der Hauptstichprobe zählen
+3 von 946 Kokain-Messungen im RQ2-Test (Vergleich innerhalb einer Anlage)
+nicht mit – und verfälscht nichts. Nach Rückfrage so entschieden.
+
+## D006 · 2026-10-22 · Phase 1 · Präzisierung von §3.3 Punkt 3
+
+**Mehrfach-Kläranlagen: belegt und unklar getrennt.** Plan §3.3 nimmt an,
+dass „(2)“, „(4)“ im Namen mehrere Anlagen bedeuten; das stimmt nicht immer.
+Zwei Markierungen:
+
+- `multi_plant`: mehrere Anlagen ausdrücklich genannt (Feld „Location“ mit
+  „;“ oder „Sum of …“), dazu Berlin (4) (DE001), dessen vier Anlagen unter
+  DE002 genannt sind.
+- `multi_plant_unclear`: Anlagenzahl in Klammern im Namen, aber nur eine
+  Anlage genannt (Hauptstichprobe: Prag (2), Kohtla-Järve (2),
+  Stockholm (3)). Basel (2) und Zürich (2) nennen dieselbe einzelne Anlage
+  wie ihre älteren IDs und zählen als Einzelanlage.
+
+Hauptstichprobe: 16 IDs `multi_plant`, 3 IDs `multi_plant_unclear`
+(Liste: `output/logs/multi_plant_sites.csv`). Die Robustheitsprüfung R6
+lässt beide Gruppen weg.
+
+*Begründung:* Nur festhalten, was belegt ist. Bei beiden Gruppen ist die
+Einwohnerzahl unsicher, deshalb fallen in R6 beide weg. Nach Rückfrage so
+entschieden.
+
+## D007 · 2026-10-22 · Phase 1 · keine Abweichung im Vorgehen
+
+**Vergleich der Mittelwerte; Korrektur einer Zahl im Plan.** Aus den
+Tageswerten neu berechnete Mittel (Werktag = Di/Mi/Do, Wochenende =
+Fr/Sa/So/Mo, Tag = alle sieben Tage) gelten als abweichend, wenn sie sich um
+mehr als 0,011 vom Wert in der Datei unterscheiden. Die „267 Zeilen“ aus Plan
+§3.3 Punkt 5 ließen sich nicht reproduzieren. Tatsächlich weichen ab:
+Werktagsmittel 405 Zeilen (311 davon aus 2021), Wochenendmittel 376,
+Tagesmittel 136 (davon 38 um mehr als 5 %, meist bei fehlenden Tageswerten).
+Wie im Plan bleibt das Tagesmittel der Datei der Hauptwert. Details:
+`output/logs/mean_deviations.csv`.
+
+*Begründung:* Die Werte sind auf zwei Nachkommastellen gerundet; die Toleranz
+trennt solche Rundungsunterschiede von echten Abweichungen. Die Zahl im Plan
+stammt aus der Vorab-Analyse mit unbekannter Toleranz.
+
+## D008 · 2026-10-22 · Phase 1 · keine Abweichung
+
+**Fort-de-France bleibt in der Hauptstichprobe.** Die Hauptstichprobe wird
+wie in §4.1 über Ländercodes bestimmt (EU27 + NO + TR). Fort-de-France
+(FR004, Martinique) gehört über den Code FR dazu (4 Messungen, 2017).
+
+*Begründung:* Eine feste Regel aus dem Plan statt Einzelfallentscheidungen.

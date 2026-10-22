@@ -1,0 +1,31 @@
+sample_group,site_id,country,city,status,n_plants_listed,location,population,years
+main,BE008,BE,Brussels (2),multi_plant,2,Brussel-Noord; Brussels-Zuid,1391929,2025
+main,CY005,CY,Nicosia (2),multi_plant,2,Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia; Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia,132825,"2021,2022,2023,2024,2025"
+main,DE001,DE,Berlin (4),multi_plant,1,Berlin (4),3993500,"2014,2015,2017,2018,2022"
+main,DE002,DE,Berlin (IV),multi_plant,4,Muenchehofe; Ruhleben; Schönerlinde; Wasmannsdorf,3948000,2025
+main,DE018,DE,Frankfurt (3),multi_plant,3,Sindlingen; Griesheim; Niederrad,1157800,"2017,2025"
+main,DE022,DE,Hamburg (2),multi_plant,2,Nord; Süd,2050000,"2017,2020,2025"
+main,DE025,DE,Hannover (2),multi_plant,2,Gummerwald; Herrenhausen,793400,"2017,2024,2025"
+main,DE035,DE,Saarbrücken (2),multi_plant,2,Brebach; Burbach,203643,"2017,2018,2019,2020,2021,2022,2023,2024"
+main,ES009,ES,Valencia (2),multi_plant,2,Pinedo I; Pinedo II,2343766,2025
+main,ES010,ES,Valencia (3),multi_plant,3,Pinedo I; Pinedo II; Quart-Benager,1471771,"2011,2013,2014,2015,2016,2017,2018,2019,2021,2022,2023"
+main,NL008,NL,Rotterdam (2),multi_plant,2,RWZI Dokhaven; RWZI Kralinserveer,620313,"2023,2024,2025"
+main,NO001,NO,Bergen (2),multi_plant,2,Knappen Renseanlegg; Holen Renseanlegg,117976,"2024,2025"
+main,NO007,NO,Oslo (2),multi_plant,2,VEAS; Bekkelaget Renseanlegg,929199,"2024,2025"
+main,NO009,NO,Trondheim (2),multi_plant,2,Ladehammeren Renseanlegg; Høvringen Renseanlegg,211876,"2024,2025"
+main,SE005,SE,Stockholm (2),multi_plant,2,Bromma (BIN); Henriksdals reningsverk,760407,"2016,2019,2020,2021,2024"
+main,TR004,TR,Istanbul (II-VII),multi_plant,6,ATAKÖY; BALTALIMANI; KADIKÖY; KÜÇÜKÇEKMECE; TUZLA; YENIKAPI,16525000,"2019,2020,2021,2022,2023,2024,2025"
+main,CZ006,CZ,Prague (2),unclear,1,ÚCOV Praha,1212000,"2012,2013,2019,2020,2021,2022,2024,2025"
+main,EE001,EE,Kohtla-Järve (2),unclear,1,Kohtla-Järve (2),47325,2022
+main,SE006,SE,Stockholm (3),unclear,1,Käppalaförbundet,554224,2025
+non_europe,AU001,AU,Australia (55 sites),multi_plant,1,Sum of 55 WWTPs,14095000,2023
+non_europe,AU002,AU,Sum of 56 WWTPs,multi_plant,1,Sum of 56 WWTPs,13144000,2025
+non_europe,AU003,AU,Australia (59 sites),multi_plant,1,Sum of 59 WWTPs,14166000,2024
+non_europe,BR005,BR,Belo Horizonte (2),multi_plant,2,ETE Arruda; ETE Onça,2245267,"2023,2024"
+non_europe,BR007,BR,Brasilia (I-VII),multi_plant,7,ETE Brasília Sul; ETE Brasília Norte; ETE Melchior; ETE Gama; ETE Palanltina; ETE Riacho Fundo; ETE São Sebastião,2483677,"2023,2024"
+non_europe,BR010,BR,Curitiba (2),multi_plant,2,ETE Atuba; ETE Belém,1894000,"2023,2024"
+non_europe,BR019,BR,Niterói (2),multi_plant,2,ETE Icaraí; ETE Toc-Toc,380433,2024
+non_europe,BR023,BR,Porto Alegre (2 - 2024),multi_plant,2,ETE Navegantes; ETE Serraria,880000,2024
+non_europe,BR032,BR,São Paulo (I-V),multi_plant,5,ETE Suzano; ETE São Miguel; ETE ABC; ETE Barueri; ETE Novo Mundo,11720559,"2023,2024"
+non_europe,NZ004,NZ,Wellington (M1+M2),multi_plant,2,Wellington metropolitan 1; Wellington metropolitan 2,340765,"2023,2024,2025"
+non_europe,US003,US,Seattle (2),multi_plant,2,Westpoint; South,1764000,2025

@@ -86,4 +86,4 @@ MAKEFLAGS=-j"$(nproc)" Rscript -e 'renv::restore(prompt = FALSE)'
 
 ## Status
 
-Phase 0 (setup) complete. Phase 1 (data cleaning and audit) in progress: step 1 of 3 (import, checks, logs of data problems) done.
+Phase 0 (setup) complete. Phase 1 (data cleaning and audit) in progress: steps 1 and 2 of 3 done (cleaned data in `data/processed/ww_clean.rds`); step 3, the audit, follows.

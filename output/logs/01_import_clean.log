@@ -1,13 +1,5 @@
 Country code H -> HU: 6 measurements, 1 site(s)
 
-Measurements and sites per sample group:
-# A tibble: 3 × 4
-  sample_group measurements sites countries
-  <chr>               <int> <int>     <int>
-1 europe_other          478    24         5
-2 main                 4524   197        28
-3 non_europe            236    36         7
-
 File means that differ from the recomputed means by more than 0.011 (details: output/logs/mean_deviations.csv):
 # A tibble: 3 × 2
   measure     n
@@ -21,7 +13,7 @@ Weekday mean, deviations by year:
    5    6   12   16    1  311    4    5   39    6 
 Daily mean, relative deviation > 5 %: 38 rows; > 10 %: 11 rows; of these with missing days: 10 
 
-Candidate pairs for the site-ID crosswalk (details: output/logs/site_id_candidates.csv):
+Site-ID pairs that may denote the same plant (not merged, D005; details: output/logs/site_id_candidates.csv):
 # A tibble: 15 × 8
    sample_group site_id_a city_a               years_a                                                          site_id_b city_b                 years_b                                               
    <chr>        <chr>     <chr>                <chr>                                                            <chr>     <chr>                  <chr>                                                 
@@ -58,104 +50,109 @@ Candidate pairs for the site-ID crosswalk (details: output/logs/site_id_candidat
 14     1.00 
 15     1.98 
 
-Candidates for multi-plant sites (details: output/logs/multi_plant_candidates.csv):
-# A tibble: 32 × 5
-   sample_group site_id city                    n_plants_listed
-   <chr>        <chr>   <chr>                             <dbl>
- 1 europe_other CH003   Basel (2)                             1
- 2 europe_other CH019   Zurich (2)                            1
- 3 main         BE008   Brussels (2)                          2
- 4 main         CY005   Nicosia (2)                           2
- 5 main         CZ006   Prague (2)                            1
- 6 main         DE001   Berlin (4)                            1
- 7 main         DE002   Berlin (IV)                           4
- 8 main         DE018   Frankfurt (3)                         3
- 9 main         DE022   Hamburg (2)                           2
-10 main         DE025   Hannover (2)                          2
-11 main         DE035   Saarbrücken (2)                       2
-12 main         EE001   Kohtla-Järve (2)                      1
-13 main         ES009   Valencia (2)                          2
-14 main         ES010   Valencia (3)                          3
-15 main         NL008   Rotterdam (2)                         2
-16 main         NO001   Bergen (2)                            2
-17 main         NO007   Oslo (2)                              2
-18 main         NO009   Trondheim (2)                         2
-19 main         SE005   Stockholm (2)                         2
-20 main         SE006   Stockholm (3)                         1
-21 main         TR004   Istanbul (II-VII)                     6
-22 non_europe   AU001   Australia (55 sites)                  1
-23 non_europe   AU002   Sum of 56 WWTPs                       1
-24 non_europe   AU003   Australia (59 sites)                  1
-25 non_europe   BR005   Belo Horizonte (2)                    2
-26 non_europe   BR007   Brasilia (I-VII)                      7
-27 non_europe   BR010   Curitiba (2)                          2
-28 non_europe   BR019   Niterói (2)                           2
-29 non_europe   BR023   Porto Alegre (2 - 2024)               2
-30 non_europe   BR032   São Paulo (I-V)                       5
-31 non_europe   NZ004   Wellington (M1+M2)                    2
-32 non_europe   US003   Seattle (2)                           2
+Multi-plant sites (D006; details: output/logs/multi_plant_sites.csv):
+# A tibble: 30 × 6
+   sample_group site_id city                    status      n_plants_listed
+   <chr>        <chr>   <chr>                   <chr>                 <dbl>
+ 1 main         BE008   Brussels (2)            multi_plant               2
+ 2 main         CY005   Nicosia (2)             multi_plant               2
+ 3 main         DE001   Berlin (4)              multi_plant               1
+ 4 main         DE002   Berlin (IV)             multi_plant               4
+ 5 main         DE018   Frankfurt (3)           multi_plant               3
+ 6 main         DE022   Hamburg (2)             multi_plant               2
+ 7 main         DE025   Hannover (2)            multi_plant               2
+ 8 main         DE035   Saarbrücken (2)         multi_plant               2
+ 9 main         ES009   Valencia (2)            multi_plant               2
+10 main         ES010   Valencia (3)            multi_plant               3
+11 main         NL008   Rotterdam (2)           multi_plant               2
+12 main         NO001   Bergen (2)              multi_plant               2
+13 main         NO007   Oslo (2)                multi_plant               2
+14 main         NO009   Trondheim (2)           multi_plant               2
+15 main         SE005   Stockholm (2)           multi_plant               2
+16 main         TR004   Istanbul (II-VII)       multi_plant               6
+17 main         CZ006   Prague (2)              unclear                   1
+18 main         EE001   Kohtla-Järve (2)        unclear                   1
+19 main         SE006   Stockholm (3)           unclear                   1
+20 non_europe   AU001   Australia (55 sites)    multi_plant               1
+21 non_europe   AU002   Sum of 56 WWTPs         multi_plant               1
+22 non_europe   AU003   Australia (59 sites)    multi_plant               1
+23 non_europe   BR005   Belo Horizonte (2)      multi_plant               2
+24 non_europe   BR007   Brasilia (I-VII)        multi_plant               7
+25 non_europe   BR010   Curitiba (2)            multi_plant               2
+26 non_europe   BR019   Niterói (2)             multi_plant               2
+27 non_europe   BR023   Porto Alegre (2 - 2024) multi_plant               2
+28 non_europe   BR032   São Paulo (I-V)         multi_plant               5
+29 non_europe   NZ004   Wellington (M1+M2)      multi_plant               2
+30 non_europe   US003   Seattle (2)             multi_plant               2
    location                                                                                                                                       
    <chr>                                                                                                                                          
- 1 ARA Basel                                                                                                                                      
- 2 Werdhölzli                                                                                                                                     
- 3 Brussel-Noord; Brussels-Zuid                                                                                                                   
- 4 Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia; Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia
- 5 ÚCOV Praha                                                                                                                                     
- 6 Berlin (4)                                                                                                                                     
- 7 Muenchehofe; Ruhleben; Schönerlinde; Wasmannsdorf                                                                                              
- 8 Sindlingen; Griesheim; Niederrad                                                                                                               
- 9 Nord; Süd                                                                                                                                      
-10 Gummerwald; Herrenhausen                                                                                                                       
-11 Brebach; Burbach                                                                                                                               
-12 Kohtla-Järve (2)                                                                                                                               
-13 Pinedo I; Pinedo II                                                                                                                            
-14 Pinedo I; Pinedo II; Quart-Benager                                                                                                             
-15 RWZI Dokhaven; RWZI Kralinserveer                                                                                                              
-16 Knappen Renseanlegg; Holen Renseanlegg                                                                                                         
-17 VEAS; Bekkelaget Renseanlegg                                                                                                                   
-18 Ladehammeren Renseanlegg; Høvringen Renseanlegg                                                                                                
-19 Bromma (BIN); Henriksdals reningsverk                                                                                                          
-20 Käppalaförbundet                                                                                                                               
-21 ATAKÖY; BALTALIMANI; KADIKÖY; KÜÇÜKÇEKMECE; TUZLA; YENIKAPI                                                                                    
-22 Sum of 55 WWTPs                                                                                                                                
-23 Sum of 56 WWTPs                                                                                                                                
-24 Sum of 59 WWTPs                                                                                                                                
-25 ETE Arruda; ETE Onça                                                                                                                           
-26 ETE Brasília Sul; ETE Brasília Norte; ETE Melchior; ETE Gama; ETE Palanltina; ETE Riacho Fundo; ETE São Sebastião                              
-27 ETE Atuba; ETE Belém                                                                                                                           
-28 ETE Icaraí; ETE Toc-Toc                                                                                                                        
-29 ETE Navegantes; ETE Serraria                                                                                                                   
-30 ETE Suzano; ETE São Miguel; ETE ABC; ETE Barueri; ETE Novo Mundo                                                                               
-31 Wellington metropolitan 1; Wellington metropolitan 2                                                                                           
-32 Westpoint; South                                                                                                                               
+ 1 Brussel-Noord; Brussels-Zuid                                                                                                                   
+ 2 Sewage treatment plant of Pano Deftera (Anthoupoli)-Sewerage Board of Nicosia; Sewage treatment plant of Vathia Gonia-Sewerage Board of Nicosia
+ 3 Berlin (4)                                                                                                                                     
+ 4 Muenchehofe; Ruhleben; Schönerlinde; Wasmannsdorf                                                                                              
+ 5 Sindlingen; Griesheim; Niederrad                                                                                                               
+ 6 Nord; Süd                                                                                                                                      
+ 7 Gummerwald; Herrenhausen                                                                                                                       
+ 8 Brebach; Burbach                                                                                                                               
+ 9 Pinedo I; Pinedo II                                                                                                                            
+10 Pinedo I; Pinedo II; Quart-Benager                                                                                                             
+11 RWZI Dokhaven; RWZI Kralinserveer                                                                                                              
+12 Knappen Renseanlegg; Holen Renseanlegg                                                                                                         
+13 VEAS; Bekkelaget Renseanlegg                                                                                                                   
+14 Ladehammeren Renseanlegg; Høvringen Renseanlegg                                                                                                
+15 Bromma (BIN); Henriksdals reningsverk                                                                                                          
+16 ATAKÖY; BALTALIMANI; KADIKÖY; KÜÇÜKÇEKMECE; TUZLA; YENIKAPI                                                                                    
+17 ÚCOV Praha                                                                                                                                     
+18 Kohtla-Järve (2)                                                                                                                               
+19 Käppalaförbundet                                                                                                                               
+20 Sum of 55 WWTPs                                                                                                                                
+21 Sum of 56 WWTPs                                                                                                                                
+22 Sum of 59 WWTPs                                                                                                                                
+23 ETE Arruda; ETE Onça                                                                                                                           
+24 ETE Brasília Sul; ETE Brasília Norte; ETE Melchior; ETE Gama; ETE Palanltina; ETE Riacho Fundo; ETE São Sebastião                              
+25 ETE Atuba; ETE Belém                                                                                                                           
+26 ETE Icaraí; ETE Toc-Toc                                                                                                                        
+27 ETE Navegantes; ETE Serraria                                                                                                                   
+28 ETE Suzano; ETE São Miguel; ETE ABC; ETE Barueri; ETE Novo Mundo                                                                               
+29 Wellington metropolitan 1; Wellington metropolitan 2                                                                                           
+30 Westpoint; South                                                                                                                               
 
-Measurements per substance and year:
+Saved data/processed/ww_clean.rds: 5238 rows, 25 columns
+
+Overview:
+# A tibble: 3 × 4
+  sample_group measurements sites countries
+  <chr>               <int> <int>     <int>
+1 europe_other          478    24         5
+2 main                 4524   197        28
+3 non_europe            236    36         7
+
+Main sample: measurements per substance and year:
                  
                   2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
-  MDMA              13   20   37   43   45   50   62   74   69   89   77  105  108  150  130
-  amphetamine       13   22   37   43   46   49   63   75   65   87   66  106   96  146  128
-  cannabis          13   16   26    0    0    0    0   29   48   37   44   59   68   99   99
-  cocaine           14   22   37   44   48   51   61   75   73   89   78  109  108  153  139
-  cot                0    0    0    0    0    0    0    0    0    0    0    0    0    0   64
-  ets                0    0    0    0    0    0    0    0    0    0    0    0    0    0   35
-  ketamine           0    0    0    0    0    0    0    0    0    0    0   27   59  102  134
-  methamphetamine   14   20   36   42   47   50   62   72   67   90   75  103  101  147  138
+  MDMA              12   16   29   35   37   43   55   68   62   83   71   99   84  124  106
+  amphetamine       12   18   29   35   37   42   56   69   59   81   60  101   78  124  108
+  cannabis          13   16   23    0    0    0    0   28   42   32   44   53   59   75   82
+  cocaine           13   18   29   36   39   43   54   68   66   83   72  104   83  124  114
+  cot                0    0    0    0    0    0    0    0    0    0    0    0    0    0   51
+  ets                0    0    0    0    0    0    0    0    0    0    0    0    0    0   33
+  ketamine           0    0    0    0    0    0    0    0    0    0    0   27   50   80  113
+  methamphetamine   13   16   28   34   38   43   56   70   60   84   69   97   85  120  111
 
-Share of zeros (below LOQ) in the daily mean, per substance:
-# A tibble: 8 × 4
-  metabolite          n zeros share
-  <chr>           <int> <int> <dbl>
-1 MDMA             1072    21 0.02 
-2 amphetamine      1042    96 0.092
-3 cannabis          538     9 0.017
-4 cocaine          1101    10 0.009
-5 cot                64     3 0.047
-6 ets                35     0 0    
-7 ketamine          322    51 0.158
-8 methamphetamine  1064   191 0.18 
+Main sample: sites, zeros and multi-plant flags per substance:
+# A tibble: 8 × 8
+  metabolite      measurements sites years     zeros zero_share multi_plant multi_plant_unclear
+  <chr>                  <int> <int> <chr>     <int>      <dbl>       <int>               <int>
+1 MDMA                     924   192 2011-2025    19      0.021          55                  10
+2 amphetamine              909   192 2011-2025    82      0.09           54                  10
+3 cannabis                 467   124 2011-2025     7      0.015          27                  10
+4 cocaine                  946   196 2011-2025     8      0.008          58                  10
+5 cot                       51    51 2025-2025     3      0.059           8                   2
+6 ets                       33    33 2025-2025     0      0               4                   2
+7 ketamine                 270   135 2022-2025    46      0.17           24                   3
+8 methamphetamine          924   196 2011-2025   176      0.19           58                  10
 
-Missing day values per row:
+All data: missing day values per row:
 n_days_missing
    0    1    2    3    4    5 
 4955  203   61   11    4    4 
-01_import_clean.R: step 1 done. Crosswalk, flags and saving follow in step 2.
