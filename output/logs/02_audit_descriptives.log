@@ -1,1 +1,72 @@
-02_audit_descriptives.R: not implemented yet (phase 1).
+Table 1 (output/tables/table1_data_overview.csv):
+# A tibble: 8 × 10
+  substance                 measurements above_loq sites countries years     n_years population_median population_min population_max
+  <fct>                            <int>     <int> <int>     <int> <chr>       <int>             <dbl>          <dbl>          <dbl>
+1 Cocaine (benzoylecgonine)          946       938   196        28 2011-2025      15            134404           7600       16525000
+2 MDMA                               924       905   192        27 2011-2025      15            133310           7600       16525000
+3 Ketamine                           270       224   135        26 2022-2025       4            200000           8657       16525000
+4 Methamphetamine                    924       748   196        28 2011-2025      15            134404           7600       16525000
+5 Cannabis (THC-COOH)                467       460   124        23 2011-2025      11            164345           7600       16525000
+6 Amphetamine                        909       827   192        28 2011-2025      15            133310           7600       16525000
+7 ets (ethyl sulfate?)                33        33    33        14 2025-2025       1            144887          24558       16525000
+8 cot (cotinine?)                     51        48    51        16 2025-2025       1            233821          24558       16525000
+
+Population of the 197 sites in the main sample:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+    7600    57212   133794   473602   404300 16525000 
+
+Share of zeros (%) per substance and year (output/tables/zero_share_by_year.csv):
+# A tibble: 8 × 16
+  substance                 `2011` `2012` `2013` `2014` `2015` `2016` `2017` `2018` `2019` `2020` `2021` `2022` `2023` `2024` `2025`
+  <fct>                      <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>  <dbl>
+1 Cocaine (benzoylecgonine)    0     11.1    3.4    0      0     11.6    0      0      0      0      0      0      0      0      0  
+2 MDMA                        16.7   25     10.3    2.9    2.7    2.3    1.8    1.5    0      0      2.8    0      0      1.6    0.9
+3 Ketamine                    NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     44.4   26     15      8  
+4 Methamphetamine             61.5   31.2   46.4   20.6   36.8   23.3   37.5   20     26.7   15.5   11.6    8.2   14.1    9.2   14.4
+5 Cannabis (THC-COOH)         15.4   12.5   13     NA     NA     NA     NA      0      0      0      0      0      0      0      0  
+6 Amphetamine                 16.7   27.8   17.2   11.4   21.6   19     17.9   10.1    6.8    8.6   10      5      9      0.8    2.8
+7 ets (ethyl sulfate?)        NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA      0  
+8 cot (cotinine?)             NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA      5.9
+
+Sites by number of years with a measurement (output/tables/panel_years_per_site.csv):
+# A tibble: 15 × 9
+   n_years `Cocaine (benzoylecgonine)`  MDMA Ketamine Methamphetamine `Cannabis (THC-COOH)` Amphetamine `ets (ethyl sulfate?)` `cot (cotinine?)`
+     <int>                       <int> <int>    <int>           <int>                 <int>       <int>                  <int>             <int>
+ 1       1                          52    50       61              52                    41          51                     33                51
+ 2       2                          25    22       34              27                    25          22                      0                 0
+ 3       3                          17    20       19              17                     7          17                      0                 0
+ 4       4                          22    24       21              20                    11          22                      0                 0
+ 5       5                           8     5        0               8                     1           9                      0                 0
+ 6       6                          18    18        0              20                    10          22                      0                 0
+ 7       7                           9    10        0               9                     9           8                      0                 0
+ 8       8                          12    11        0              11                    10          13                      0                 0
+ 9       9                           6     6        0               7                     1           4                      0                 0
+10      10                           3     3        0               3                     5           2                      0                 0
+11      11                           5     2        0               2                     4           5                      0                 0
+12      12                           4     8        0              10                     0           6                      0                 0
+13      13                           6     3        0               2                     0           2                      0                 0
+14      14                           2     8        0               5                     0           6                      0                 0
+15      15                           7     2        0               3                     0           3                      0                 0
+
+Cocaine, values above LOQ: sites with >= 2 years: 144 of 195 sites; 887 of 938 measurements
+
+Cocaine: sites per year, Finland and other countries:
+# A tibble: 15 × 3
+    year `Other countries` Finland
+   <int>             <int>   <int>
+ 1  2011                13       0
+ 2  2012                16       2
+ 3  2013                29       0
+ 4  2014                22      14
+ 5  2015                35       4
+ 6  2016                29      14
+ 7  2017                50       4
+ 8  2018                45      23
+ 9  2019                62       4
+10  2020                56      27
+11  2021                68       4
+12  2022                77      27
+13  2023                79       4
+14  2024                96      28
+15  2025               110       4
+02_audit_descriptives.R: tables in output/tables/, figures in output/figures/.

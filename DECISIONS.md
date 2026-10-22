@@ -116,3 +116,18 @@ wie in §4.1 über Ländercodes bestimmt (EU27 + NO + TR). Fort-de-France
 (FR004, Martinique) gehört über den Code FR dazu (4 Messungen, 2017).
 
 *Begründung:* Eine feste Regel aus dem Plan statt Einzelfallentscheidungen.
+
+## D009 · 2026-10-22 · Phase 1 · keine Abweichung im Vorgehen
+
+**Korrektur einer Angabe im Plan: Finnland.** Plan §3.3 Punkt 4 sagt,
+Finnland messe nur in geraden Jahren. Tatsächlich (Kokain,
+Hauptstichprobe): in jedem ungeraden Jahr seit 2015 vier finnische Anlagen,
+in den geraden Jahren seit 2014 jeweils 14 bis 28 (2012: zwei). Der
+Zusammensetzungseffekt bleibt: In den geraden Jahren kommen viele kleinere
+Anlagen hinzu (Median der finnischen Anlagen 64 000 Einwohner, übrige
+Hauptstichprobe 150 013). Abbildung:
+`output/figures/audit_sites_per_year_finland`.
+
+*Begründung:* Das Vorgehen des Plans (Anlagen-Effekte in RQ2,
+Robustheitsprüfung R1 ohne Finnland) passt weiterhin; nur die Beschreibung
+wird korrigiert.
