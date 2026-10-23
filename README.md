@@ -23,6 +23,12 @@ Reuse requires attribution to both EUDA and SCORE.
 | `ww2026-all-data.csv` | All measurements: year, substance, site, daily values Wed–Tue, means |
 | `ww2026-site-info-table.csv` | Treatment plants: site ID, coordinates, population, institution |
 | `ww2026-changes-all-substance.csv` | Change 2024→2025 per city and substance (EUDA classification) |
+| `GPS-30.xlsx` | National surveys: cocaine use in the last 12 months, young adults (15–34), latest survey per country |
+
+`GPS-30.xlsx` is table GPS-30 of the EUDA Statistical Bulletin 2026,
+"Prevalence of drug use > Cocaine > Last year prevalence > Young adults
+(15-34)", <https://www.euda.europa.eu/data/stats2026/gps_en>, downloaded on
+2026-10-23.
 
 The files in `data/raw/` are the original downloads and are never modified.
 Their MD5 checksums are stored in `data/raw_md5.txt`; every script checks them
