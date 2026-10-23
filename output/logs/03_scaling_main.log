@@ -1,1 +1,19 @@
-03_scaling_main.R: not implemented yet (phase 3).
+NOTE: 2/0 fixed-effect singletons were removed (2 observations).
+NOTE: 1/0 fixed-effect singleton was removed (1 observation).
+NOTE: 1/0 fixed-effect singleton was removed (1 observation).
+NOTE: 8/0 fixed-effect singletons were removed (8 observations).
+NOTE: 8/0 fixed-effect singletons were removed (8 observations).
+Reproduction of the preliminary results (output/tables/reproduction_preliminary.csv):
+# A tibble: 8 × 16
+  metabolite      delta_plan delta delta_diff within_tolerance ci_low_plan ci_high_plan ci_low ci_high n_plan n_data sites_plan sites_data same_data n_used sites_used
+  <chr>                <dbl> <dbl>      <dbl> <lgl>                  <dbl>        <dbl>  <dbl>   <dbl>  <dbl>  <int>      <dbl>      <int> <lgl>      <int>      <int>
+1 cocaine              0.391 0.391          0 TRUE                    0.26         0.52  0.263   0.52     425    425        169        169 TRUE         425        169
+2 MDMA                 0.357 0.357          0 TRUE                    0.27         0.44  0.268   0.445    410    410        165        165 TRUE         410        165
+3 ketamine             0.425 0.425          0 TRUE                    0.26         0.59  0.261   0.588    224    224        128        128 TRUE         222        126
+4 methamphetamine      0.401 0.401          0 TRUE                    0.23         0.57  0.228   0.573    366    366        157        157 TRUE         365        156
+5 cannabis             0.131 0.131          0 TRUE                    0.08         0.18  0.084   0.178    269    269        105        105 TRUE         268        104
+6 amphetamine          0.047 0.047          0 TRUE                   -0.05         0.15 -0.054   0.147    395    395        162        162 TRUE         395        162
+7 ets                  0.107 0.107          0 TRUE                   -0.07         0.28 -0.056   0.27      33     33         33         33 TRUE          25         25
+8 cot                  0.06  0.06           0 TRUE                   -0.02         0.14 -0.012   0.133     48     48         48         48 TRUE          40         40
+
+All 8 deltas reproduced within +-0.01.

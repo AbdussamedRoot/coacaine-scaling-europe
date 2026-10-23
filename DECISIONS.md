@@ -192,3 +192,19 @@ Abweichung in diesem Logbuch.
 
 *Begründung:* Alle Analyseentscheidungen stehen fest, bevor ein Ergebnis zu
 RQ1–RQ3 gerechnet wurde – Schutz gegen p-Hacking (Regel 3).
+
+## D014 · 2026-10-23 · Phase 3 · keine Abweichung
+
+**Reproduktion bestanden; Fallzahlen nach `fixest`-Standard.** Alle acht δ
+aus Plan §6 sind reproduziert (Abweichung jeweils < 0,001; Kriterium ±0,01),
+und die verfügbaren Messungen und Anlagen stimmen für alle acht Substanzen
+exakt mit §6 überein (`output/tables/reproduction_preliminary`). `fixest`
+entfernt standardmäßig Fixed-Effect-Singletons (z. B. ein Land mit nur einer
+Messung). Diese Beobachtungen tragen nichts zur Steigung δ bei, verändern aber
+Fallzahl und Kleinstichproben-Korrekturen; daher sind die KIs leicht anders
+als in §6 (am deutlichsten bei `cot` und `ets`, wo 8 Länder nur eine Anlage
+haben). Berichtet werden künftig beide Zahlen: verfügbare und im Modell
+genutzte Beobachtungen.
+
+*Begründung:* Das entspricht dem in `SPECIFICATIONS.md` §3.1 festgelegten
+`fixest`-Standard; die Fallzahlen sollen trotzdem nachvollziehbar bleiben.

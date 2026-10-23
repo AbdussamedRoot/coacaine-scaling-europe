@@ -100,5 +100,7 @@ Phases 0–2 complete: setup, data cleaning and audit, national prevalence
 data, literature search, and the analysis specifications, frozen on
 2026-10-23 in `SPECIFICATIONS.md` before any result was computed. Still open:
 the author's reading of the cited sources and confirmation of the meaning of
-`cot`/`ets`. Next: phase 3 (reproduction of the preliminary results, then
-RQ1).
+`cot`/`ets`.
+
+Phase 3 in progress: the preliminary results of plan §6 are reproduced (all
+eight deltas within 0.001). Next: RQ1 main analysis.
