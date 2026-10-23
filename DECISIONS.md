@@ -161,16 +161,34 @@ Cotinin bzw. Ethylsulfat. Vorsichtsregel siehe `SPECIFICATIONS.md` §7.
 *Noch zu tun:* Bestätigung über die EUDA-Datensatzseite im Browser oder eine
 Anfrage bei EUDA/SCORE.
 
-## D012 · 2026-10-23 · Phase 2 · vorläufig
+## D012 · 2026-10-23 · Phase 2 · Lücke bestätigt, Quellen noch zu lesen
 
-**Literatur-Check (Plan §1.4), erster Durchgang.** Websuche mit den fünf
-Suchbegriffen des Plans; PubMed und medRxiv waren aus der Cloud-Umgebung nicht
-erreichbar. Vorläufiges Ergebnis: keine Studie gefunden, die einen
-Skalierungsexponenten für illegale Drogen aus Abwasserdaten schätzt oder eine
-hierarchische Ausbreitung von Kokain formal testet. Nächster Verwandter:
-Urban Scaling von Opioid-Verkäufen in den USA. Kandidatenliste:
-`paper/literature_check.md`.
+**Literatur-Check (Plan §1.4).** Zwei Durchgänge per Websuche (die fünf
+Suchbegriffe des Plans und vertiefende Suchen, auch nach Preprints
+2025/2026); Existenz, bibliografische Angaben und Abstracts geprüft. PubMed,
+medRxiv und Verlags-Volltexte waren aus der Cloud-Umgebung nicht erreichbar.
 
-*Noch zu tun:* Prüfung der Quellen und eigene Suche in Google Scholar, PubMed
-und medRxiv durch den Autor (Regel 5); danach wird dieser Eintrag
-abgeschlossen.
+Ergebnis: Stadt-Land-Unterschiede im Abwasser sind schon gezeigt worden
+(Oregon 2009, Neuseeland 2022, Niederlande 2025, Luxemburg), jeweils in einem
+Land und mit Kategorien oder Korrelationen. Nicht gefunden wurden eine formale
+Urban-Scaling-Analyse für illegale Drogen über viele Länder, ein Test der
+zeitlichen Annäherung oder ein Test gegen die nationale Prävalenz. Die
+Forschungslücke besteht, wird im Paper aber so eingegrenzt (kein Anspruch,
+als Erste höhere Werte in Städten zu zeigen). Korrektur zu Plan §1.4: Bei
+ter Laak et al. (2025) sind 64 % und 31 % laut Abstract r², nicht r. Details
+und Pflichtliste: `paper/literature_check.md`.
+
+*Noch zu tun (Regel 5):* Der Autor öffnet und prüft die acht Quellen der
+Pflichtliste, bevor sie im Paper zitiert werden.
+
+## D013 · 2026-10-23 · Phase 2 · Spezifikationen festgeschrieben
+
+**`SPECIFICATIONS.md` Version 1 ist freigegeben** und gilt für alle
+Rechnungen. Freigabe durch den Autor auf die direkte Frage nach der Freigabe
+(„mach du alles inklusive literatur checks usw“), nachdem die Präzisierungen
+P1–P6 und D010 erklärt worden waren. Maßgeblich ist der Stand im Commit
+„Freeze specifications (version 1)“; spätere Änderungen nur als datierte
+Abweichung in diesem Logbuch.
+
+*Begründung:* Alle Analyseentscheidungen stehen fest, bevor ein Ergebnis zu
+RQ1–RQ3 gerechnet wurde – Schutz gegen p-Hacking (Regel 3).

@@ -1,6 +1,6 @@
 # Spezifikationen der Analysen (vor den Rechnungen festgelegt)
 
-**Version 1 · Entwurf vom 2026-10-23 · Status: zur Freigabe**
+**Version 1 · 2026-10-23 · Status: freigegeben (D013)**
 
 Dieses Dokument legt alle Analysen fest, **bevor** sie gerechnet werden
 (Plan §2 und §4, Phase 2). Es folgt `PROJEKTPLAN.md` und füllt nur die
@@ -232,5 +232,5 @@ in Phase 4 ergänzt und im Logbuch vermerkt.
 
 ## Freigabe
 
-Freigegeben am: — (wird nach der Zustimmung mit Datum und Commit-Hash in
-`DECISIONS.md` eingetragen)
+Freigegeben am 2026-10-23 (D013). Maßgeblich ist der Stand im Git-Commit
+„Freeze specifications (version 1)“.
