@@ -131,3 +131,46 @@ Hauptstichprobe 150 013). Abbildung:
 *Begründung:* Das Vorgehen des Plans (Anlagen-Effekte in RQ2,
 Robustheitsprüfung R1 ohne Finnland) passt weiterhin; nur die Beschreibung
 wird korrigiert.
+
+## D010 · 2026-10-23 · Phase 2 · Ergänzung (zusätzliche Sensitivität)
+
+**Prävalenzdaten für RQ3.** Hauptmaß wie im Plan (§4.6): 12-Monats-Prävalenz
+Kokain, 15–34 Jahre, EUDA Statistical Bulletin 2026, Tabelle GPS-30
+(`data/raw/GPS-30.xlsx`, Spalte „Total“, jeweils letzte Umfrage pro Land).
+Zusätzlich, festgelegt **bevor** irgendein RQ3-Ergebnis gerechnet wurde: dieselbe
+Analyse mit der Prävalenz für 15–64 Jahre (Tabelle GPS-29,
+`data/raw/GPS-29.xlsx`) als Sensitivität.
+
+*Begründung:* 15–34 erfasst die Gruppe mit dem meisten Konsum, reagiert am
+ehesten auf Ausbreitung und hängt weniger vom Altersaufbau der Länder ab.
+15–64 passt dagegen besser dazu, dass das Abwasser die ganze Bevölkerung misst,
+und beruht auf größeren Stichproben. Stimmen beide überein, ist das Ergebnis
+stärker. Vorgeschlagen von Claude, zugestimmt vom Autor („mach du alles“).
+
+## D011 · 2026-10-23 · Phase 2 · offen
+
+**Bedeutung von `cot` und `ets` nicht bestätigt.** Eine Websuche nach der
+EUDA-Dokumentation (Datensatzseite, Bericht 2026, Meldungen) fand keine
+Beschreibung der Codes; die EUDA-Seite selbst war aus der Cloud-Umgebung nicht
+abrufbar. Auch die Begleitdatei `ww2026-changes-all-substance.csv` enthält
+die Codes ohne Erklärung. Indizien aus den Daten (Hauptstichprobe 2025):
+`cot` Median 955 mg/Tag pro 1000 Einw., flach über die Woche (Wochenende ÷
+Werktag = 1,02); `ets` Median 3321, Wochenendanstieg (1,41) – passend zu
+Cotinin bzw. Ethylsulfat. Vorsichtsregel siehe `SPECIFICATIONS.md` §7.
+
+*Noch zu tun:* Bestätigung über die EUDA-Datensatzseite im Browser oder eine
+Anfrage bei EUDA/SCORE.
+
+## D012 · 2026-10-23 · Phase 2 · vorläufig
+
+**Literatur-Check (Plan §1.4), erster Durchgang.** Websuche mit den fünf
+Suchbegriffen des Plans; PubMed und medRxiv waren aus der Cloud-Umgebung nicht
+erreichbar. Vorläufiges Ergebnis: keine Studie gefunden, die einen
+Skalierungsexponenten für illegale Drogen aus Abwasserdaten schätzt oder eine
+hierarchische Ausbreitung von Kokain formal testet. Nächster Verwandter:
+Urban Scaling von Opioid-Verkäufen in den USA. Kandidatenliste:
+`paper/literature_check.md`.
+
+*Noch zu tun:* Prüfung der Quellen und eigene Suche in Google Scholar, PubMed
+und medRxiv durch den Autor (Regel 5); danach wird dieser Eintrag
+abgeschlossen.

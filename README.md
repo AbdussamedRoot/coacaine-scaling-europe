@@ -24,10 +24,12 @@ Reuse requires attribution to both EUDA and SCORE.
 | `ww2026-site-info-table.csv` | Treatment plants: site ID, coordinates, population, institution |
 | `ww2026-changes-all-substance.csv` | Change 2024→2025 per city and substance (EUDA classification) |
 | `GPS-30.xlsx` | National surveys: cocaine use in the last 12 months, young adults (15–34), latest survey per country |
+| `GPS-29.xlsx` | The same for all adults (15–64); used only in a robustness check |
 
-`GPS-30.xlsx` is table GPS-30 of the EUDA Statistical Bulletin 2026,
-"Prevalence of drug use > Cocaine > Last year prevalence > Young adults
-(15-34)", <https://www.euda.europa.eu/data/stats2026/gps_en>, downloaded on
+`GPS-30.xlsx` and `GPS-29.xlsx` are tables GPS-30 and GPS-29 of the EUDA
+Statistical Bulletin 2026, "Prevalence of drug use > Cocaine > Last year
+prevalence > Young adults (15-34)" and "> All adults (15-64)",
+<https://www.euda.europa.eu/data/stats2026/gps_en>, downloaded on
 2026-10-23.
 
 The files in `data/raw/` are the original downloads and are never modified.
@@ -69,6 +71,7 @@ MAKEFLAGS=-j"$(nproc)" Rscript -e 'renv::restore(prompt = FALSE)'
 ```
 ├── CLAUDE.md            # working rules for Claude Code
 ├── PROJEKTPLAN.md       # analysis plan (German)
+├── SPECIFICATIONS.md    # final specifications, fixed before the analyses (German)
 ├── DECISIONS.md         # log of decisions and deviations (German)
 ├── README.md
 ├── run_all.R            # runs all scripts in order
@@ -88,8 +91,12 @@ MAKEFLAGS=-j"$(nproc)" Rscript -e 'renv::restore(prompt = FALSE)'
 │   ├── tables/          # CSV + HTML
 │   └── logs/
 └── paper/
+    └── literature_check.md  # literature search, candidates to verify
 ```
 
 ## Status
 
-Phase 0 (setup) and phase 1 (data cleaning and audit) complete. Next: phase 2 (literature check, national prevalence data, meaning of `cot`/`ets`, final specifications).
+Phase 0 (setup) and phase 1 (data cleaning and audit) complete. Phase 2 in
+progress: national prevalence data added; specifications drafted and awaiting
+approval; literature check (first pass) awaiting verification; meaning of
+`cot`/`ets` not yet confirmed.
